@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<child name="ClaimBrief_Positive_Test" key="{A5B9489A-5341-4CFF-9C36-1EE14A459472}" path="ClaimBrief_Positive_Test.js" />
+		<child name="Libary" key="{782366E3-4EEB-4F75-ADD6-AF2CBE2254A0}" path="Libary.js" />
+		<child name="ClaimBrief_Negative_Test" key="{65F96E6C-EE93-4B80-B9E0-3465CB809EEE}" path="ClaimBrief_Negative_Test.js" />
+		<child name="ClaimInquiry_Positive_Test" key="{F89FD30B-BAB6-42E0-AEC1-2056FF2AB382}" path="ClaimInquiry_Positive_Test.js" />
+		<child name="ClaimInquiry_Negative_Test" key="{3D696D98-1061-4074-BA82-2F58605D10C2}" path="ClaimInquiry_Negative_Test.js" />
+		<child name="ClaimInquiry_Search_By_Parameters" key="{5AA6C9FF-D05B-4EDA-BFAC-DCF359317E7D}" path="ClaimInquiry_Search_By_Parameters.js" />
+		<child name="Footer_Link_Validation" key="{96E6BB8E-DE9E-4C10-A152-2B305D3C429E}" path="Footer_Link_Validation.js" />
+	</children>
+</Root>

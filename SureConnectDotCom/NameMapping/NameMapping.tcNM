@@ -1,0 +1,925 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{C08408DE-2C7F-403F-9A3B-ADCA06AE192A}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{6437F770-4A6E-4C25-A136-A89A9F010B53}">
+						<TypeInfo Item0="{8BBC1489-10FD-46E3-9FC9-21D21E5960B6}" />
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="pageAmerisureSureconnectSignIn" Key="{4AEA0E9A-3421-4DBF-AEF9-B4F98302DA04}">
+								<Image FileName="-1006664194" Left="8" Top="79" Right="1928" Bottom="1048" />
+								<TypeInfo Item0="{5864D5A9-06F1-4C0F-B62F-065377606DF5}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://qassureconnect.amerisure.com/Anonymous/Login*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formForm1" Key="{3E2F2450-C3C3-41D6-96E1-C55C6FF2BFA1}">
+										<Image FileName="-1006664194" Left="8" Top="79" Right="1911" Bottom="1048" />
+										<TypeInfo Item0="{5666997C-07B1-42FD-88FB-FAF9A812DF1E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#form1" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(., &apos;//&lt;![CDATA[&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;form1&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//body[@id=&apos;GetEvents&apos;]/form" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="submitbuttonSignIn" Key="{0007A7BB-58CC-459F-9FE3-7CCA1FA65046}">
+										<Image FileName="-1006664194" Left="801" Top="448" Right="1119" Bottom="482" />
+										<TypeInfo Item0="{42AB3591-D08E-432C-9757-A59E5187B1D8}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#MasterContent_BtnAzureLogin" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@id=&apos;MasterContent_BtnAzureLogin&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;MasterContent_PnlLogin&apos;]/div[2]/div[2]/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div[2]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="BrowserWindow" Key="{A992739E-AB49-4004-A46F-9C4693D21554}">
+								<Image FileName="560308963" Left="-8" Top="-8" Right="1928" Bottom="1048" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageAmerisureSureconnectWelcomeC" Key="{D40DB940-594A-405F-A250-C77D1B5A038A}">
+								<Image FileName="560308963" Left="0" Top="115" Right="1920" Bottom="1040" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://qassureconnect.amerisure.com/Welcome*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formForm1" Key="{53862FCB-8C61-4937-A92D-F33525B6B781}">
+										<Image FileName="560308963" Left="0" Top="115" Right="1903" Bottom="1637" />
+										<Selectors>
+											<Selector>
+												<Value Value="#form1" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(., &apos;//&lt;![CDATA[&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;form1&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//body[@id=&apos;GetEvents&apos;]/form" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkUcmainnavHyperlink1" Key="{88FF4BFC-12C3-42EE-AC10-0C117818B228}">
+										<Image FileName="560308963" Left="119" Top="142" Right="317" Bottom="158" />
+										<Selectors>
+											<Selector>
+												<Value Value="#UCMainNav_HyperLink1" />
+											</Selector>
+											<Selector>
+												<Value Value="a[href=&apos;../../Default.aspx&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[@id=&apos;UCMainNav_HyperLink1&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;UCMainNav_PnlLogoMenu&apos;]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;../../Default.aspx&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]/div/div/div/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="imageUcmainnavImglogo" Key="{D300878E-4E4A-48D5-9AEB-32285223B619}">
+										<Image FileName="560308963" Left="119" Top="126" Right="317" Bottom="177" />
+										<TypeInfo Item0="{A5147756-5ABE-4C1E-83F8-1982523B7423}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#UCMainNav_ImgLogo" />
+											</Selector>
+											<Selector>
+												<Value Value="//img[@id=&apos;UCMainNav_ImgLogo&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[@id=&apos;UCMainNav_HyperLink1&apos;]/img" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;../../Default.aspx&apos;)]/img" />
+											</Selector>
+											<Selector>
+												<Value Value="//img" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode" Key="{A8855B51-452C-4ABE-A673-1F83FABF4BCA}">
+										<Image FileName="-546946747" Left="64" Top="116" Right="1840" Bottom="136" />
+										<Selectors>
+											<Selector>
+												<Value Value="#SCDropDown" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[contains(., &apos;menu&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@id=&apos;SCDropDown&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;MasterWrapper&apos;]/div/div/li" />
+											</Selector>
+											<Selector>
+												<Value Value="//li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkMenu" Key="{27316445-CB74-4C75-9221-0CBFA3C52D67}">
+										<Image FileName="-546946747" Left="138" Top="118" Right="138" Bottom="134" />
+										<Selectors>
+											<Selector>
+												<Value Value="#UCMainNav_MenuButton" />
+											</Selector>
+											<Selector>
+												<Value Value="a[href=&apos;Navigation/#&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(., &apos;menu&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[@id=&apos;UCMainNav_MenuButton&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@id=&apos;SCDropDown&apos;]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;Navigation/#&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonMenu" Key="{4742A216-CA90-4BFC-96CA-0ECD96717445}">
+										<Image FileName="-546946747" Left="64" Top="126" Right="114" Bottom="176" />
+										<TypeInfo Item0="{4C3BCCA1-6551-401F-8AFC-5DDD68E5FBD1}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#btnMenuButton" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(., &apos;menu&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@id=&apos;btnMenuButton&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[@id=&apos;UCMainNav_MenuButton&apos;]/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;Navigation/#&apos;)]/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkClaimInquiry" Key="{977050BA-42B6-46BD-A3F8-FE534C1D7851}">
+										<Image FileName="-1805578904" Left="101" Top="458" Right="183" Bottom="474" />
+										<TypeInfo Item0="{A5147756-5ABE-4C1E-83F8-1982523B7423}" />
+										<Selectors>
+											<Selector>
+												<Value Value="a[href=&apos;Reports.aspx/claims/claim-srch&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[text()=&apos;Claim Inquiry&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="[href=&apos;Reports.aspx/claims/claim-srch&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="(//a[@onclick=&apos;StartSpin();&apos;])[7]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;UCMainNav_MenuClaims&apos;]/div[2]/a[4]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;Reports.aspx/claims/claim-srch&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div[2]/a[4]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageClaimSrch" Key="{A08BB46C-C11C-4D8A-A733-FC8145601BD6}">
+								<Image FileName="560308963" Left="0" Top="115" Right="1920" Bottom="1040" />
+								<TypeInfo Item0="{3A063465-FBE9-4520-A1F7-D0007834BEFA}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://qassureconnect.amerisure.com/Reports/claims/claim-srch" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formForm1" Key="{48A1AC3C-B2F2-44B7-83C3-AD9E91E3CF97}">
+										<Image FileName="1877868759" Left="0" Top="115" Right="1903" Bottom="1080" />
+										<Selectors>
+											<Selector>
+												<Value Value="#form1" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(., &apos;//&lt;![CDATA[&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;form1&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//body[@id=&apos;GetEvents&apos;]/form" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="frameWfiframe" Key="{1E6F9A0C-AD24-440D-A12A-399FAFD43BDF}">
+										<Image FileName="1877868759" Left="63" Top="235" Right="1841" Bottom="935" />
+										<Selectors>
+											<Selector>
+												<Value Value="#WFiFrame" />
+											</Selector>
+											<Selector>
+												<Value Value="*[name=&apos;WFiFrame&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//iframe[@id=&apos;WFiFrame&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;MasterContainer&apos;]/iframe" />
+											</Selector>
+											<Selector>
+												<Value Value="//iframe" />
+											</Selector>
+										</Selectors>
+										<Children>
+											<Child Name="linkAll" Key="{2E76E609-3068-4F4A-A2A4-E6149DC79EB7}">
+												<Image FileName="1877868759" Left="209" Top="281" Right="499" Bottom="304" />
+												<Selectors>
+													<Selector>
+														<Value Value="#comboAcctHolder_chosen &gt; .chosen-single" />
+													</Selector>
+													<Selector>
+														<Value Value="(//a[contains(.,&apos;All&apos;)])[2]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;comboAcctHolder_chosen&apos;]/a" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[2]/div/a" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="textnodeAll" Key="{C5B30B3D-F50B-486B-8771-ECFD037842D0}">
+												<Image FileName="1877868759" Left="218" Top="282" Right="472" Bottom="306" />
+												<TypeInfo Item0="{A5147756-5ABE-4C1E-83F8-1982523B7423}" />
+												<Selectors>
+													<Selector>
+														<Value Value="#comboAcctHolder_chosen span" />
+													</Selector>
+													<Selector>
+														<Value Value="(//span[contains(.,&apos;All&apos;)])[2]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;comboAcctHolder_chosen&apos;]/a/span" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[2]/div/a/span" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="textnode" Key="{63C6229A-AE6F-4227-B5B9-4A51BF549396}">
+												<Image FileName="-407910737" Left="210" Top="338" Right="494" Bottom="578" />
+												<Selectors>
+													<Selector>
+														<Value Value="#comboAcctHolder_chosen .chosen-results" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;comboAcctHolder_chosen&apos;]/div/ul" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[2]/div/div/ul" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="textnode1stChoiceFacilitiesServi" Key="{F33EDB93-7FF7-4151-BC58-37F7D34E9F7C}">
+												<Image FileName="-407910737" Left="214" Top="363" Right="477" Bottom="403" />
+												<TypeInfo Item0="{A5147756-5ABE-4C1E-83F8-1982523B7423}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//li[text()=&apos;1st Choice Facilities Services Corp - 20053805&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="[data-option-array-index=&apos;1&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;comboAcctHolder_chosen&apos;]/div/ul/li[2]" />
+													</Selector>
+													<Selector>
+														<Value Value="//li[2]" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="linkAll2" Key="{4FB75985-62C6-4CAF-AB2C-63A04758706E}">
+												<Image FileName="1424494863" Left="209" Top="311" Right="429" Bottom="334" />
+												<Selectors>
+													<Selector>
+														<Value Value="//a[contains(., &apos;All&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="#comboPolicyLine_chosen &gt; .chosen-single" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;comboPolicyLine_chosen&apos;]/a" />
+													</Selector>
+													<Selector>
+														<Value Value="//a" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="textnodeAll2" Key="{2D84597A-2CE0-4637-B0A2-4692CF14AE52}">
+												<Image FileName="1424494863" Left="218" Top="312" Right="402" Bottom="336" />
+												<TypeInfo Item0="{A5147756-5ABE-4C1E-83F8-1982523B7423}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//span[text()=&apos;All&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="#comboPolicyLine_chosen span" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;comboPolicyLine_chosen&apos;]/a/span" />
+													</Selector>
+													<Selector>
+														<Value Value="//a/span" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="textnode2" Key="{A6816AF0-2AB3-439F-94A8-C13B289E8054}">
+												<Image FileName="-75860764" Left="210" Top="333" Right="424" Bottom="558" />
+												<Selectors>
+													<Selector>
+														<Value Value="#comboPolicyLine_chosen .chosen-results" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;comboPolicyLine_chosen&apos;]/div/ul" />
+													</Selector>
+													<Selector>
+														<Value Value="//ul" />
+													</Selector>
+													<Selector>
+														<Value Value="//ul[contains(.,&apos;AllCommercial Auto (CA)Commercial Fire (CF)Commercial Package (CPP)Crime (BT)General Liability (GL)Inland Marine (IM)Umbrella (CU)Workers Compensation (WC)&apos;)]" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="textnodeCommercialFireCf" Key="{52A4B20A-9719-42F4-96A9-D847F5F105A9}">
+												<Image FileName="-75860764" Left="214" Top="383" Right="424" Bottom="408" />
+												<TypeInfo Item0="{A5147756-5ABE-4C1E-83F8-1982523B7423}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//li[text()=&apos;Commercial Fire (CF)&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="#comboPolicyLine_chosen [data-option-array-index=&apos;2&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;comboPolicyLine_chosen&apos;]/div/ul/li[3]" />
+													</Selector>
+													<Selector>
+														<Value Value="//li[3]" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="textboxLossDate" Key="{8D105795-B61B-4B39-A3B0-84E5922C7539}">
+												<Image FileName="1281941174" Left="209" Top="431" Right="324" Bottom="454" />
+												<TypeInfo Item0="{96D5975E-C37E-48B4-B03A-B485B3E4F387}" />
+												<Selectors>
+													<Selector>
+														<Value Value="#calLossDateFrom" />
+													</Selector>
+													<Selector>
+														<Value Value="*[name=&apos;calLossDateFrom&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//input[@id=(//label[text()=&apos;Loss Date&apos;]/@for)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//input[@id=&apos;calLossDateFrom&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;parm_panel_bdy&apos;]/input[3]" />
+													</Selector>
+													<Selector>
+														<Value Value="//input[3]" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="panelParmPanelBdy" Key="{12587B02-16A5-4D01-A017-DE18DA4FDD01}">
+												<Image FileName="1399794475" Left="69" Top="241" Right="522" Bottom="634" />
+												<TypeInfo Item0="{A5147756-5ABE-4C1E-83F8-1982523B7423}" />
+												<Selectors>
+													<Selector>
+														<Value Value="#parm_panel_bdy" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;parm_panel_bdy&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;parm_panel&apos;]/div[2]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[3]/div/div[2]" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="linkSelectAColumn" Key="{44C1B080-0B6F-4381-8449-631F3475457E}">
+												<Image FileName="1399794475" Left="209" Top="461" Right="354" Bottom="484" />
+												<Selectors>
+													<Selector>
+														<Value Value="//a[contains(., &apos;Select a Column&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="#comboLossAmount_chosen &gt; .chosen-single" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;comboLossAmount_chosen&apos;]/a" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[8]/div/a" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="textnodeSelectAColumn" Key="{C70F06E2-D25B-460F-A554-311E9A7C889D}">
+												<Image FileName="1399794475" Left="218" Top="462" Right="327" Bottom="486" />
+												<TypeInfo Item0="{A5147756-5ABE-4C1E-83F8-1982523B7423}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//span[text()=&apos;Select a Column&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="#comboLossAmount_chosen span" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;comboLossAmount_chosen&apos;]/a/span" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[8]/div/a/span" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="textnode3" Key="{369E48B5-9010-41B2-AA16-7BC4EE714D30}">
+												<Image FileName="-360487242" Left="210" Top="483" Right="349" Bottom="608" />
+												<Selectors>
+													<Selector>
+														<Value Value="//ul[contains(., &apos;Select a ColumnTotal IncurredPaid ExpensesReservesPaid Loss&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="#comboLossAmount_chosen .chosen-results" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;comboLossAmount_chosen&apos;]/div/ul" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[8]/div/div/ul" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="textnodeTotalIncurred" Key="{D314C845-E333-44CD-B4EA-5CF3A5C61DF4}">
+												<Image FileName="-360487242" Left="214" Top="508" Right="349" Bottom="533" />
+												<TypeInfo Item0="{A5147756-5ABE-4C1E-83F8-1982523B7423}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//li[text()=&apos;Total Incurred&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="#comboLossAmount_chosen [data-option-array-index=&apos;1&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;comboLossAmount_chosen&apos;]/div/ul/li[2]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[8]/div/div/ul/li[2]" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="linkAll3" Key="{242BA3E6-36AF-4179-8276-CD6C9725B03A}">
+												<Image FileName="-484860865" Left="209" Top="491" Right="389" Bottom="514" />
+												<Selectors>
+													<Selector>
+														<Value Value="#comboLitigation_chosen &gt; .chosen-single" />
+													</Selector>
+													<Selector>
+														<Value Value="(//a[contains(.,&apos;All&apos;)])[3]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;comboLitigation_chosen&apos;]/a" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[6]/div/a" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="textnodeAll3" Key="{404EA660-A317-4BD0-BC90-3D1EFB258387}">
+												<Image FileName="-484860865" Left="218" Top="492" Right="362" Bottom="516" />
+												<TypeInfo Item0="{A5147756-5ABE-4C1E-83F8-1982523B7423}" />
+												<Selectors>
+													<Selector>
+														<Value Value="#comboLitigation_chosen span" />
+													</Selector>
+													<Selector>
+														<Value Value="(//span[contains(.,&apos;All&apos;)])[3]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;comboLitigation_chosen&apos;]/a/span" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[6]/div/a/span" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="textnode4" Key="{76D4AE86-5A1E-4F5D-A03C-F8FCEB280613}">
+												<Image FileName="1682109253" Left="210" Top="513" Right="384" Bottom="638" />
+												<Selectors>
+													<Selector>
+														<Value Value="#comboLitigation_chosen .chosen-results" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;comboLitigation_chosen&apos;]/div/ul" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[6]/div/div/ul" />
+													</Selector>
+													<Selector>
+														<Value Value="//ul[contains(.,&apos;AllIn litigationLitigation completeNot ApplicableNot In litigation&apos;)]" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="textnodeInLitigation" Key="{4ABD1C0E-7453-450B-82AB-85BC77BE3CD9}">
+												<Image FileName="1682109253" Left="214" Top="538" Right="384" Bottom="563" />
+												<TypeInfo Item0="{A5147756-5ABE-4C1E-83F8-1982523B7423}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//li[text()=&apos;In litigation&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="#comboLitigation_chosen [data-option-array-index=&apos;1&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;comboLitigation_chosen&apos;]/div/ul/li[2]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[6]/div/div/ul/li[2]" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="linkAll4" Key="{8BE3A304-3750-4503-B63F-F3CE48863C18}">
+												<Image FileName="1639031292" Left="209" Top="521" Right="414" Bottom="544" />
+												<Selectors>
+													<Selector>
+														<Value Value="#comboClaimStatus_chosen &gt; .chosen-single" />
+													</Selector>
+													<Selector>
+														<Value Value="(//a[contains(.,&apos;All&apos;)])[3]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;comboClaimStatus_chosen&apos;]/a" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[7]/div/a" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="textnodeAll4" Key="{5F58E57E-E919-4673-8D14-1E6515529E17}">
+												<Image FileName="1639031292" Left="218" Top="522" Right="387" Bottom="546" />
+												<TypeInfo Item0="{A5147756-5ABE-4C1E-83F8-1982523B7423}" />
+												<Selectors>
+													<Selector>
+														<Value Value="#comboClaimStatus_chosen span" />
+													</Selector>
+													<Selector>
+														<Value Value="(//span[contains(.,&apos;All&apos;)])[3]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;comboClaimStatus_chosen&apos;]/a/span" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[7]/div/a/span" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="textnode5" Key="{5BA23C0C-D001-411C-B8BB-8EB9AE13D6FF}">
+												<Image FileName="1986374108" Left="210" Top="543" Right="409" Bottom="618" />
+												<Selectors>
+													<Selector>
+														<Value Value="//ul[contains(., &apos;AllOpenClosed&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="#comboClaimStatus_chosen .chosen-results" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;comboClaimStatus_chosen&apos;]/div/ul" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[7]/div/div/ul" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="textnodeOpen" Key="{0F0DEED5-F940-4952-B586-7B1E19AC76B0}">
+												<Image FileName="1986374108" Left="214" Top="568" Right="409" Bottom="593" />
+												<TypeInfo Item0="{A5147756-5ABE-4C1E-83F8-1982523B7423}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//li[text()=&apos;Open&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="#comboClaimStatus_chosen [data-option-array-index=&apos;1&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;comboClaimStatus_chosen&apos;]/div/ul/li[2]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[7]/div/div/ul/li[2]" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="linkExcluded" Key="{86450108-8FF0-41A1-9F0B-79A12ABC2F60}">
+												<Image FileName="-1886197259" Left="209" Top="551" Right="414" Bottom="574" />
+												<Selectors>
+													<Selector>
+														<Value Value="//a[contains(., &apos;Excluded&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="#comboNoticeOnly_chosen &gt; .chosen-single" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;comboNoticeOnly_chosen&apos;]/a" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[10]/div/a" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="textnodeExcluded" Key="{9FD9CC0B-6DF3-408B-AFD0-8A8C7570C2BC}">
+												<Image FileName="-1886197259" Left="218" Top="552" Right="387" Bottom="576" />
+												<TypeInfo Item0="{A5147756-5ABE-4C1E-83F8-1982523B7423}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//span[text()=&apos;Excluded&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="#comboNoticeOnly_chosen span" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;comboNoticeOnly_chosen&apos;]/a/span" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[10]/div/a/span" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="textnode6" Key="{9A3FA21F-D734-4A4F-8F10-704C810498C0}">
+												<Image FileName="-882198707" Left="210" Top="573" Right="409" Bottom="648" />
+												<Selectors>
+													<Selector>
+														<Value Value="//ul[contains(., &apos;IncludedExcludedOnly&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="#comboNoticeOnly_chosen .chosen-results" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;comboNoticeOnly_chosen&apos;]/div/ul" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[10]/div/div/ul" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="textnodeIncluded" Key="{7E6A8C03-1FDA-4C34-83AE-51223CD548FA}">
+												<Image FileName="-882198707" Left="214" Top="573" Right="409" Bottom="598" />
+												<TypeInfo Item0="{A5147756-5ABE-4C1E-83F8-1982523B7423}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//li[text()=&apos;Included&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="#comboNoticeOnly_chosen [data-option-array-index=&apos;0&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;comboNoticeOnly_chosen&apos;]/div/ul/li" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[10]/div/div/ul/li" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="textnodePaidLoss" Key="{A7D2CC5E-D398-4636-A339-80CB1119492C}">
+												<Image FileName="1473034612" Left="214" Top="582" Right="349" Bottom="607" />
+												<TypeInfo Item0="{A5147756-5ABE-4C1E-83F8-1982523B7423}" />
+												<Selectors>
+													<Selector>
+														<Value Value="//li[text()=&apos;Paid Loss&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="#comboLossAmount_chosen [data-option-array-index=&apos;4&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;comboLossAmount_chosen&apos;]/div/ul/li[5]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[8]/div/div/ul/li[5]" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="textboxEditlossamount" Key="{588BAB42-FC20-4251-B126-38E10934D6A4}">
+												<Image FileName="1736005554" Left="429" Top="460" Right="493" Bottom="482" />
+												<TypeInfo Item0="{96D5975E-C37E-48B4-B03A-B485B3E4F387}" />
+												<Selectors>
+													<Selector>
+														<Value Value="#editLossAmount" />
+													</Selector>
+													<Selector>
+														<Value Value="*[name=&apos;editLossAmount&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//input[@id=&apos;editLossAmount&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;parm_panel_bdy&apos;]/input[5]" />
+													</Selector>
+													<Selector>
+														<Value Value="//input[5]" />
+													</Selector>
+												</Selectors>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageWebfocusActiveReport" Key="{B41A055B-256C-43C7-A7BF-8825FBFDDCF1}">
+								<Image FileName="-756478985" Left="8" Top="79" Right="1928" Bottom="1048" />
+								<TypeInfo Item0="{5864D5A9-06F1-4C0F-B62F-065377606DF5}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://qasbiproxy.amerisure.com/ibi_apps/WFServlet.ibfs" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnodeClaimStatus" Key="{5372C676-B0DA-4D5E-A471-DB0A28799A1F}">
+										<Image FileName="-756478985" Left="12" Top="263" Right="116" Bottom="279" />
+										<TypeInfo Item0="{5666997C-07B1-42FD-88FB-FAF9A812DF1E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[contains(text(), &apos;Claim Status:&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="tr:nth-child(7) &gt; #THEAD_0_1_0_0 b:nth-child(1) &gt; span" />
+											</Selector>
+											<Selector>
+												<Value Value="(//td[@id=&apos;THEAD_0_1_0_0&apos;]/div/b/span)[9]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr[7]/td/div/b/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{6437F770-4A6E-4C25-A136-A89A9F010B53}">
+			<Child Name="pageAmerisureSureconnectSignIn" Owner="{4AEA0E9A-3421-4DBF-AEF9-B4F98302DA04}">
+				<Child Name="formForm1" Owner="{3E2F2450-C3C3-41D6-96E1-C55C6FF2BFA1}">
+					<Child Name="submitbuttonSignIn" Owner="{0007A7BB-58CC-459F-9FE3-7CCA1FA65046}" />
+				</Child>
+			</Child>
+			<Child Name="BrowserWindow" Owner="{A992739E-AB49-4004-A46F-9C4693D21554}" />
+			<Child Name="pageAmerisureSureconnectWelcomeC" Owner="{D40DB940-594A-405F-A250-C77D1B5A038A}">
+				<Child Name="formForm1" Owner="{53862FCB-8C61-4937-A92D-F33525B6B781}">
+					<Child Name="linkUcmainnavHyperlink1" Owner="{88FF4BFC-12C3-42EE-AC10-0C117818B228}">
+						<Child Name="imageUcmainnavImglogo" Owner="{D300878E-4E4A-48D5-9AEB-32285223B619}" />
+					</Child>
+					<Child Name="textnode" Owner="{A8855B51-452C-4ABE-A673-1F83FABF4BCA}">
+						<Child Name="linkMenu" Owner="{27316445-CB74-4C75-9221-0CBFA3C52D67}">
+							<Child Name="buttonMenu" Owner="{4742A216-CA90-4BFC-96CA-0ECD96717445}" />
+						</Child>
+						<Child Name="linkClaimInquiry" Owner="{977050BA-42B6-46BD-A3F8-FE534C1D7851}" />
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="pageClaimSrch" Owner="{A08BB46C-C11C-4D8A-A733-FC8145601BD6}">
+				<Child Name="formForm1" Owner="{48A1AC3C-B2F2-44B7-83C3-AD9E91E3CF97}">
+					<Child Name="frameWfiframe" Owner="{1E6F9A0C-AD24-440D-A12A-399FAFD43BDF}">
+						<Child Name="linkAll" Owner="{2E76E609-3068-4F4A-A2A4-E6149DC79EB7}">
+							<Child Name="textnodeAll" Owner="{C5B30B3D-F50B-486B-8771-ECFD037842D0}" />
+						</Child>
+						<Child Name="textnode" Owner="{63C6229A-AE6F-4227-B5B9-4A51BF549396}">
+							<Child Name="textnode1stChoiceFacilitiesServi" Owner="{F33EDB93-7FF7-4151-BC58-37F7D34E9F7C}" />
+						</Child>
+						<Child Name="linkAll2" Owner="{4FB75985-62C6-4CAF-AB2C-63A04758706E}">
+							<Child Name="textnodeAll2" Owner="{2D84597A-2CE0-4637-B0A2-4692CF14AE52}" />
+						</Child>
+						<Child Name="textnode2" Owner="{A6816AF0-2AB3-439F-94A8-C13B289E8054}">
+							<Child Name="textnodeCommercialFireCf" Owner="{52A4B20A-9719-42F4-96A9-D847F5F105A9}" />
+						</Child>
+						<Child Name="textboxLossDate" Owner="{8D105795-B61B-4B39-A3B0-84E5922C7539}" />
+						<Child Name="panelParmPanelBdy" Owner="{12587B02-16A5-4D01-A017-DE18DA4FDD01}" />
+						<Child Name="linkSelectAColumn" Owner="{44C1B080-0B6F-4381-8449-631F3475457E}">
+							<Child Name="textnodeSelectAColumn" Owner="{C70F06E2-D25B-460F-A554-311E9A7C889D}" />
+						</Child>
+						<Child Name="textnode3" Owner="{369E48B5-9010-41B2-AA16-7BC4EE714D30}">
+							<Child Name="textnodeTotalIncurred" Owner="{D314C845-E333-44CD-B4EA-5CF3A5C61DF4}" />
+							<Child Name="textnodePaidLoss" Owner="{A7D2CC5E-D398-4636-A339-80CB1119492C}" />
+						</Child>
+						<Child Name="linkAll3" Owner="{242BA3E6-36AF-4179-8276-CD6C9725B03A}">
+							<Child Name="textnodeAll3" Owner="{404EA660-A317-4BD0-BC90-3D1EFB258387}" />
+						</Child>
+						<Child Name="textnode4" Owner="{76D4AE86-5A1E-4F5D-A03C-F8FCEB280613}">
+							<Child Name="textnodeInLitigation" Owner="{4ABD1C0E-7453-450B-82AB-85BC77BE3CD9}" />
+						</Child>
+						<Child Name="linkAll4" Owner="{8BE3A304-3750-4503-B63F-F3CE48863C18}">
+							<Child Name="textnodeAll4" Owner="{5F58E57E-E919-4673-8D14-1E6515529E17}" />
+						</Child>
+						<Child Name="textnode5" Owner="{5BA23C0C-D001-411C-B8BB-8EB9AE13D6FF}">
+							<Child Name="textnodeOpen" Owner="{0F0DEED5-F940-4952-B586-7B1E19AC76B0}" />
+						</Child>
+						<Child Name="linkExcluded" Owner="{86450108-8FF0-41A1-9F0B-79A12ABC2F60}">
+							<Child Name="textnodeExcluded" Owner="{9FD9CC0B-6DF3-408B-AFD0-8A8C7570C2BC}" />
+						</Child>
+						<Child Name="textnode6" Owner="{9A3FA21F-D734-4A4F-8F10-704C810498C0}">
+							<Child Name="textnodeIncluded" Owner="{7E6A8C03-1FDA-4C34-83AE-51223CD548FA}" />
+						</Child>
+						<Child Name="textboxEditlossamount" Owner="{588BAB42-FC20-4251-B126-38E10934D6A4}" />
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="pageWebfocusActiveReport" Owner="{B41A055B-256C-43C7-A7BF-8825FBFDDCF1}">
+				<Child Name="textnodeClaimStatus" Owner="{5372C676-B0DA-4D5E-A471-DB0A28799A1F}" />
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>

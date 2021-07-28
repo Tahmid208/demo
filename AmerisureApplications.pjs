@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="14.0" key="{32F0B8CA-85B3-446A-BB5E-49F8FC938873}">
+	<children>
+		<child name="AmerisureDotCom" key="{D8642446-6DE5-4D84-BF72-68C3EC1053EE}" path="AmerisureDotCom\AmerisureDotCom.mds" />
+		<child name="SureConnectDotCom" key="{DB0E94BB-3A33-4DE8-AE32-C4B1F1DB2933}" path="SureConnectDotCom\SureConnectDotCom.mds" />
+	</children>
+	<testItems key="{020B6848-EF5A-4C48-9808-F4D513102B98}">
+		<children>
+			<testItem key="{D8642446-6DE5-4D84-BF72-68C3EC1053EE}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{DB0E94BB-3A33-4DE8-AE32-C4B1F1DB2933}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{1B29630B-F247-45B1-8F8D-B6E7E8333493}" />
+	<analysis key="{26C1D407-C842-43B4-98AE-1A0883A1ECC8}" />
+	<scc key="{C900492B-D218-429C-9AA0-264B7D78CA88}" name="Git Plugin">
+		<data />
+	</scc>
+</Root>

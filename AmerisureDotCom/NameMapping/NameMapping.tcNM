@@ -1,0 +1,2111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{A9A629BF-A4D6-4884-B73D-224F9DCDA39D}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{0006778D-BA5B-4DFD-9B0C-F159F1CCD832}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{D87004E9-7DCC-47A1-B15C-8C86AD86919C}">
+								<Image FileName="-584406136" Left="0" Top="0" Right="1936" Bottom="1056" />
+								<TypeInfo Item0="{AC2A7110-1E24-47A8-AD7E-4E4B99469C3A}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="1" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageHome" Key="{B6E514A1-9304-435B-AE03-397A5D32C818}">
+								<Image FileName="-1981665712" Left="8" Top="80" Right="1928" Bottom="1048" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="pageContactUs" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.amerisure.com/Contact-Us.aspx" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="form" Key="{2F43C770-EA40-4A1E-B036-FCBF87ABD6F7}">
+										<Image FileName="1227545359" Left="0" Top="85" Right="1903" Bottom="1617" />
+										<Selectors>
+											<Selector>
+												<Value Value="#form" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(., &apos;//&lt;![CDATA[&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;form&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="headerMasthead" Key="{1F68384F-3445-470A-9394-EE12C01012A9}">
+										<Image FileName="1892351997" Left="335" Top="85" Right="1568" Bottom="193" />
+										<Selectors>
+											<Selector>
+												<Value Value="#masthead" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[contains(., &apos;Contact Us&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;masthead&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;form&apos;]/header[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode" Key="{26D723CB-DEC2-4741-B123-9DA73F5AAFCD}">
+										<Image FileName="639568740" Left="644" Top="95" Right="744" Bottom="123" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Contact Us&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value=".CMSListMenuLI:nth-child(1)" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@id=&apos;menuElem&apos;]/li" />
+											</Selector>
+											<Selector>
+												<Value Value="//li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkContactUs" Key="{CE58143B-D4AD-4D62-877B-29084D9483A0}">
+										<Image FileName="639568740" Left="644" Top="99" Right="744" Bottom="119" />
+										<TypeInfo Item0="{3A0E76F1-DE07-441A-BFAC-1BEF8E49847A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="a[href=&apos;/Contact-Us.aspx&apos;]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[text()=&apos;Contact Us&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value=".CMSListMenuLI:nth-child(1) &gt; [href=&apos;/Contact-Us.aspx&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@id=&apos;menuElem&apos;]/li/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;/Contact-Us.aspx&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/a" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="imageImgimage" Key="{9B01A249-C340-4C5E-8367-27FC56452E0D}">
+										<Image FileName="-1702178623" Left="390" Top="93" Right="611" Bottom="176" />
+										<TypeInfo Item0="{8711C479-7DFF-4906-A835-A042CED2DB76}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//header[@id=&apos;masthead&apos;]/div/div/a/img" />
+											</Selector>
+											<Selector>
+												<Value Value="//img[@alt=&apos;Amerisure Insurance Logo&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;/&apos;)]/img" />
+											</Selector>
+											<Selector>
+												<Value Value="//img" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageContactUs" Key="{BAAD1DAA-7AE6-472F-A9CC-600A00F125BF}">
+								<Image FileName="-1981665712" Left="8" Top="80" Right="1928" Bottom="1048" />
+								<TypeInfo Item0="{E17F7923-40AB-43F9-853C-D52ED1849E14}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="PageHome" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.amerisure.com" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="form" Key="{725C3704-4CB2-479A-9DF1-F2C4D105CE17}">
+										<Image FileName="2024385617" Left="0" Top="85" Right="1903" Bottom="1322" />
+										<Selectors>
+											<Selector>
+												<Value Value="#form" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(., &apos;//&lt;![CDATA[&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;form&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="sectionMain" Key="{FA61E9DC-F2B7-4848-B9D6-22EACD4080E8}">
+										<Image FileName="340512467" Left="0" Top="193" Right="1903" Bottom="1232" />
+										<Selectors>
+											<Selector>
+												<Value Value="#main" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Contact Us&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[@id=&apos;main&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;form&apos;]/section" />
+											</Selector>
+											<Selector>
+												<Value Value="//section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="selectTypeOfRequest" Key="{CC1E8487-11D7-41ED-B6B6-057039D22F3C}">
+										<Image FileName="340512467" Left="683" Top="427" Right="1082" Bottom="463" />
+										<TypeInfo Item0="{164FF0A0-9AF2-4C15-A15B-A10B857DA4B8}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#p_lt_ctl04_wP_p_lt_ctl01_WebPartZone2Col_WebPartZone2Col_zone_BizForm_viewBiz_TypeOfRequest_dropDownList" />
+											</Selector>
+											<Selector>
+												<Value Value="*[name=&apos;p$lt$ctl04$wP$p$lt$ctl01$WebPartZone2Col$WebPartZone2Col_zone$BizForm$viewBiz$TypeOfRequest$dropDownList&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//select[@id=(//label[text()=&apos;Type of Request:&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//select[@id=&apos;p_lt_ctl04_wP_p_lt_ctl01_WebPartZone2Col_WebPartZone2Col_zone_BizForm_viewBiz_TypeOfRequest_dropDownList&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;p_lt_ctl04_wP_p_lt_ctl01_WebPartZone2Col_WebPartZone2Col_zone_BizForm_viewBiz_ncptypeofrequest&apos;]/select" />
+											</Selector>
+											<Selector>
+												<Value Value="//select" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeContactUs" Key="{93C28B73-1EA5-4957-A646-312310E7DF4C}">
+										<Image FileName="-1300407830" Left="382" Top="293" Right="1126" Bottom="387" />
+										<TypeInfo Item0="{3A0E76F1-DE07-441A-BFAC-1BEF8E49847A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h1[text()=&apos;Contact Us&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="h1" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[@id=&apos;main&apos;]/div/div/article/article/div/h1" />
+											</Selector>
+											<Selector>
+												<Value Value="//h1" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="headerMasthead" Key="{81C5DBA4-2605-49EC-89A5-63AF4D66B5BC}">
+										<Image FileName="-389618682" Left="343" Top="94" Right="1576" Bottom="202" />
+										<Selectors>
+											<Selector>
+												<Value Value="#masthead" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[contains(., &apos;Contact Us&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;masthead&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;form&apos;]/header[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode" Key="{61E362E3-1D3E-4762-8B41-CD4CFC6A0A18}">
+										<Image FileName="-389618682" Left="757" Top="104" Right="957" Bottom="132" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Policyholder Resources&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value=".CMSListMenuLI:nth-child(2)" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@id=&apos;menuElem&apos;]/li[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkPolicyholderResources" Key="{0B35995E-03C2-4388-99CF-13514C5049FA}">
+										<Image FileName="-389618682" Left="757" Top="108" Right="957" Bottom="128" />
+										<TypeInfo Item0="{3A0E76F1-DE07-441A-BFAC-1BEF8E49847A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="a[href=&apos;/Resources.aspx&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[text()=&apos;Policyholder Resources&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value=".CMSListMenuLI:nth-child(2) &gt; [href=&apos;/Resources.aspx&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@id=&apos;menuElem&apos;]/li[2]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;/Resources.aspx&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[2]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode2" Key="{ED61A05D-210B-41B1-8383-0E3B79483FDA}">
+										<Image FileName="-688245222" Left="962" Top="104" Right="1087" Bottom="132" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Report Payroll&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value=".CMSListMenuLI:nth-child(3)" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@id=&apos;menuElem&apos;]/li[3]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[3]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkReportPayroll" Key="{66B2C9A8-49CB-418E-B2CD-20630E742302}">
+										<Image FileName="-688245222" Left="962" Top="108" Right="1087" Bottom="128" />
+										<TypeInfo Item0="{3A0E76F1-DE07-441A-BFAC-1BEF8E49847A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="a[href=&apos;/Report-Payroll.aspx&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[text()=&apos;Report Payroll&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value=".CMSListMenuLI:nth-child(3) &gt; [href=&apos;/Report-Payroll.aspx&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@id=&apos;menuElem&apos;]/li[3]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;/Report-Payroll.aspx&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[3]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode3" Key="{7F415F52-96DA-43BF-933D-C6E88AE58108}">
+										<Image FileName="-785813597" Left="1093" Top="104" Right="1239" Bottom="132" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Make a Payment&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value=".CMSListMenuLI:nth-child(4)" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@id=&apos;menuElem&apos;]/li[4]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[4]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkMakeAPayment" Key="{126F67AA-693E-4701-9EFB-AD0342F49564}">
+										<Image FileName="-785813597" Left="1093" Top="108" Right="1239" Bottom="128" />
+										<TypeInfo Item0="{3A0E76F1-DE07-441A-BFAC-1BEF8E49847A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="a[href*=&apos;billpay-reg.amerisure.com&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[text()=&apos;Make a Payment&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value=".CMSListMenuLI:nth-child(4) &gt; .CMSListMenuLink" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@id=&apos;menuElem&apos;]/li[4]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[4]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;https://billpay-reg.amerisure.com/&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode4" Key="{26E7D8D5-9768-4BB1-A8F3-7A8D86CD206F}">
+										<Image FileName="-1023875381" Left="1244" Top="104" Right="1375" Bottom="132" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Report a Claim&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value=".CMSListMenuLI:nth-child(5)" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@id=&apos;menuElem&apos;]/li[5]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[5]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkReportAClaim" Key="{6B3EF496-199F-4D44-88AA-B65E93BF1992}">
+										<Image FileName="-1023875381" Left="1244" Top="108" Right="1375" Bottom="128" />
+										<TypeInfo Item0="{3A0E76F1-DE07-441A-BFAC-1BEF8E49847A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="a[href*=&apos;Claims&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[text()=&apos;Report a Claim&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value=".CMSListMenuLI:nth-child(5) &gt; .CMSListMenuLink" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@id=&apos;menuElem&apos;]/li[5]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;Claims&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[5]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkSureconnectAmerisureCom" Key="{DB3037FC-0099-400E-A840-AC19E5E91E44}">
+										<Image FileName="-1038526997" Left="1381" Top="108" Right="1529" Bottom="128" />
+										<Selectors>
+											<Selector>
+												<Value Value="a[href*=&apos;sureconnect.amerisure.com&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value=".CMSListMenuLI:nth-child(6) &gt; .CMSListMenuLink" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@id=&apos;menuElem&apos;]/li[6]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[6]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;https://sureconnect.amerisure.com&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="imageBrandingSureconnect1Png" Key="{1D89D277-01FC-47FF-B234-BB98E1DE24FE}">
+										<Image FileName="-1038526997" Left="1391" Top="104" Right="1526" Bottom="127" />
+										<TypeInfo Item0="{3A0E76F1-DE07-441A-BFAC-1BEF8E49847A}" />
+										<Selectors>
+											<Selector>
+												<Value Value=".CMSListMenuLI:nth-child(6) [alt=&apos;SureConnect&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//img[@alt=&apos;SureConnect&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@id=&apos;menuElem&apos;]/li[6]/a/img" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[6]/a/img" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;https://sureconnect.amerisure.com&apos;)]/img" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode5" Key="{6C311490-AC04-4052-BA87-B3FC215C9BED}">
+										<Image FileName="-44947405" Left="8" Top="202" Right="1911" Bottom="261" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Menu&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value=".main" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;form&apos;]/nav/ul/li[3]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav/ul/li[3]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode6" Key="{539E713E-147A-4F75-AECD-C2F7DBF9B7BC}">
+										<Image FileName="-44947405" Left="359" Top="202" Right="685" Bottom="261" />
+										<Selectors>
+											<Selector>
+												<Value Value="ul:nth-child(2) &gt; .dropdown-submenu:nth-child(1)" />
+											</Selector>
+											<Selector>
+												<Value Value="(//li[contains(.,&apos;Why Choose Amerisure&apos;)])[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;form&apos;]/nav/ul/li[3]/ul/li" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[3]/ul/li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkWhyChooseAmerisure" Key="{0CB7E143-B5D9-438B-AA81-C201B84F09BB}">
+										<Image FileName="-44947405" Left="400" Top="202" Right="656" Bottom="261" />
+										<TypeInfo Item0="{3A0E76F1-DE07-441A-BFAC-1BEF8E49847A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="a[href*=&apos;Why-Choose-Amerisure.aspx&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[text()=&apos;Why Choose Amerisure&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="ul:nth-child(2) &gt; .dropdown-submenu:nth-child(1) &gt; a:nth-child(1)" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;form&apos;]/nav/ul/li[3]/ul/li/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[3]/ul/li/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;/Why-Choose-Amerisure.aspx&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode7" Key="{2BE77026-1A92-48B5-A1B3-4C8C0B55F3EC}">
+										<Image FileName="-96491342" Left="685" Top="202" Right="867" Bottom="261" />
+										<Selectors>
+											<Selector>
+												<Value Value="ul:nth-child(2) &gt; .dropdown-submenu:nth-child(2)" />
+											</Selector>
+											<Selector>
+												<Value Value="(//li[contains(.,&apos;About Us&apos;)])[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;form&apos;]/nav/ul/li[3]/ul/li[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[3]/ul/li[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkAboutUs" Key="{984B1D0E-0CCC-424A-BC3D-E1A03D73A04E}">
+										<Image FileName="-96491342" Left="727" Top="202" Right="839" Bottom="261" />
+										<TypeInfo Item0="{3A0E76F1-DE07-441A-BFAC-1BEF8E49847A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="a[href=&apos;/About-Us.aspx&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[text()=&apos;About Us&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="[href=&apos;/About-Us.aspx&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;form&apos;]/nav/ul/li[3]/ul/li[2]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;/About-Us.aspx&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[3]/ul/li[2]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode8" Key="{157E4B48-E8FE-4E3A-B9BC-8E7F992FB5B7}">
+										<Image FileName="-991754348" Left="867" Top="202" Right="1162" Bottom="261" />
+										<Selectors>
+											<Selector>
+												<Value Value="ul:nth-child(2) &gt; .dropdown-submenu:nth-child(3)" />
+											</Selector>
+											<Selector>
+												<Value Value="(//li[contains(.,&apos;Products &amp; Services&apos;)])[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;form&apos;]/nav/ul/li[3]/ul/li[3]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[3]/ul/li[3]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkProductsServices" Key="{7F26C41C-8BC6-41FF-9D9B-7DEF305C56B7}">
+										<Image FileName="-991754348" Left="909" Top="202" Right="1134" Bottom="261" />
+										<TypeInfo Item0="{3A0E76F1-DE07-441A-BFAC-1BEF8E49847A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="a[href*=&apos;Products-Services.aspx&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[text()=&apos;Products &amp; Services&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="ul:nth-child(2) &gt; .dropdown-submenu:nth-child(3) &gt; a:nth-child(1)" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;form&apos;]/nav/ul/li[3]/ul/li[3]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[3]/ul/li[3]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;/Products-Services.aspx&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkInsightsBlog" Key="{28B194EF-2D4D-471C-9BC2-BCB7C42A1FBB}">
+										<Image FileName="1850020372" Left="1204" Top="202" Right="1362" Bottom="261" />
+										<TypeInfo Item0="{3A0E76F1-DE07-441A-BFAC-1BEF8E49847A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="a[href=&apos;/Blog.aspx&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[text()=&apos;Insights Blog&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="[href=&apos;/Blog.aspx&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;form&apos;]/nav/ul/li[3]/ul/li[4]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;/Blog.aspx&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav/ul/li[3]/ul/li[4]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode9" Key="{69CFFCD5-4314-44C4-B76D-08E3A38B50D9}">
+										<Image FileName="-279060323" Left="1391" Top="202" Right="1560" Bottom="261" />
+										<Selectors>
+											<Selector>
+												<Value Value="ul:nth-child(2) &gt; .dropdown-submenu:nth-child(5)" />
+											</Selector>
+											<Selector>
+												<Value Value="(//li[contains(.,&apos;Careers&apos;)])[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;form&apos;]/nav/ul/li[3]/ul/li[5]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav/ul/li[3]/ul/li[5]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkCareers" Key="{3C1E7FD9-A6BB-4793-9241-D61FDB0BCA69}">
+										<Image FileName="-279060323" Left="1432" Top="202" Right="1531" Bottom="261" />
+										<TypeInfo Item0="{3A0E76F1-DE07-441A-BFAC-1BEF8E49847A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="a[href=&apos;/Careers.aspx&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[text()=&apos;Careers&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="[href=&apos;/Careers.aspx&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;form&apos;]/nav/ul/li[3]/ul/li[5]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;/Careers.aspx&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav/ul/li[3]/ul/li[5]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeCorporateHeadquarters" Key="{6C8F397B-59B8-4D99-8594-EF7203927ADC}">
+										<Image FileName="1182342105" Left="1263" Top="418" Right="1444" Bottom="485" />
+										<TypeInfo Item0="{3A0E76F1-DE07-441A-BFAC-1BEF8E49847A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[text()=&apos;Corporate Headquarters&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="h2 &gt; span" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[@id=&apos;main&apos;]/div/div/aside/div/h2/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//h2/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="footerSiteInfo" Key="{43D01C3B-769A-4252-A385-1442028606CB}">
+										<Image FileName="1904908334" Left="8" Top="958" Right="1911" Bottom="1003" />
+										<Selectors>
+											<Selector>
+												<Value Value="#site_info" />
+											</Selector>
+											<Selector>
+												<Value Value="//footer[contains(., &apos;Newsroom&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//footer[@id=&apos;site_info&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;form&apos;]/footer" />
+											</Selector>
+											<Selector>
+												<Value Value="//footer" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode10" Key="{357053A6-8601-4A3A-B795-D88CF9312C96}">
+										<Image FileName="1904908334" Left="390" Top="958" Right="1528" Bottom="1003" />
+										<Selectors>
+											<Selector>
+												<Value Value="#footer_navigation" />
+											</Selector>
+											<Selector>
+												<Value Value="(//ul[contains(.,&apos;Newsroom&apos;)])[4]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@id=&apos;footer_navigation&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//footer[@id=&apos;site_info&apos;]/div/ul" />
+											</Selector>
+											<Selector>
+												<Value Value="//footer/div/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkNewsroom" Key="{7C953849-26DA-49F2-B31A-608DD2B680A5}">
+										<Image FileName="1904908334" Left="390" Top="972" Right="513" Bottom="989" />
+										<TypeInfo Item0="{3A0E76F1-DE07-441A-BFAC-1BEF8E49847A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#footer_navigation &gt; li:nth-child(1) &gt; a" />
+											</Selector>
+											<Selector>
+												<Value Value="(//a[contains(.,&apos;Newsroom&apos;)])[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@id=&apos;footer_navigation&apos;]/li/a" />
+											</Selector>
+											<Selector>
+												<Value Value="(//a[contains(@href, &apos;About-Us/Newsroom/Press-Releases&apos;)])[3]" />
+											</Selector>
+											<Selector>
+												<Value Value="//footer/div/ul/li/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkPrivacyPolicy" Key="{01954043-72B2-461B-86EB-C0389DE9950A}">
+										<Image FileName="1597935959" Left="517" Top="972" Right="673" Bottom="989" />
+										<TypeInfo Item0="{3A0E76F1-DE07-441A-BFAC-1BEF8E49847A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="a[href=&apos;/Privacy-Policy.aspx&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[text()=&apos;Privacy Policy&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="[href=&apos;/Privacy-Policy.aspx&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@id=&apos;footer_navigation&apos;]/li[2]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;/Privacy-Policy.aspx&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//footer/div/ul/li[2]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkCompensationPolicy" Key="{A57DBCB1-9988-465F-A3C2-0CE249587332}">
+										<Image FileName="-2043897536" Left="678" Top="972" Right="891" Bottom="989" />
+										<TypeInfo Item0="{3A0E76F1-DE07-441A-BFAC-1BEF8E49847A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="a[href*=&apos;Compensation-Policy.aspx&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[text()=&apos;Compensation Policy&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="#footer_navigation &gt; li:nth-child(3) &gt; a" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@id=&apos;footer_navigation&apos;]/li[3]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//footer/div/ul/li[3]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;/Compensation-Policy.aspx&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkTermsAndConditions" Key="{9BB09535-99D0-48E3-AFE0-F48A533E6CA1}">
+										<Image FileName="141782192" Left="895" Top="972" Right="1114" Bottom="989" />
+										<TypeInfo Item0="{3A0E76F1-DE07-441A-BFAC-1BEF8E49847A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="a[href*=&apos;Terms-and-Conditions.aspx&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[text()=&apos;Terms and Conditions&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="#footer_navigation &gt; li:nth-child(4) &gt; a" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@id=&apos;footer_navigation&apos;]/li[4]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//footer/div/ul/li[4]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;/Terms-and-Conditions.aspx&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkSiteMap" Key="{44D803CB-618E-4A78-B1AD-F594C63FF4C7}">
+										<Image FileName="-1876988328" Left="1118" Top="972" Right="1220" Bottom="989" />
+										<TypeInfo Item0="{3A0E76F1-DE07-441A-BFAC-1BEF8E49847A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="a[href=&apos;/Site-Map.aspx&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[text()=&apos;Site Map&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="[href=&apos;/Site-Map.aspx&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@id=&apos;footer_navigation&apos;]/li[5]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;/Site-Map.aspx&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//footer/div/ul/li[5]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkCaPrivacy" Key="{89AF945F-2F47-4C30-BDC3-FA42FEA58FB2}">
+										<Image FileName="-548808446" Left="1224" Top="972" Right="1345" Bottom="989" />
+										<TypeInfo Item0="{3A0E76F1-DE07-441A-BFAC-1BEF8E49847A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="a[href*=&apos;CA-Privacy&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[text()=&apos;CA Privacy&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="#footer_navigation &gt; li:nth-child(6) &gt; a" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@id=&apos;footer_navigation&apos;]/li[6]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;CA-Privacy&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//footer/div/ul/li[6]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel" Key="{211C1C59-0D71-4004-BBE6-B3216891F9A2}">
+										<Image FileName="-802495285" Left="621" Top="1003" Right="799" Bottom="1048" />
+										<TypeInfo Item0="{3A0E76F1-DE07-441A-BFAC-1BEF8E49847A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[text()=&apos;Also of Interest&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value=".be-label" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;form&apos;]/div[4]/div/div/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode11" Key="{230C4DA7-F4CD-4CB3-96B2-7BBE522DE003}">
+										<Image FileName="-1249588121" Left="799" Top="1003" Right="1299" Bottom="1048" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;insurance solutionsManufacturingclaim cost&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value=".be-list" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;form&apos;]/div[4]/div/div/ul" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]/div/div/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode12" Key="{DE37486C-B9CC-467B-BD92-447C08DE6F33}">
+										<Image FileName="-1249588121" Left="799" Top="1003" Right="1011" Bottom="1048" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;insurance solutions&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value=".be-list-item:nth-child(1)" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;form&apos;]/div[4]/div/div/ul/li" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]/div/div/ul/li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkInsuranceSolutions" Key="{0E64534F-9485-43E9-A0BE-5A7BD606165F}">
+										<Image FileName="-1249588121" Left="799" Top="1017" Right="1011" Bottom="1034" />
+										<TypeInfo Item0="{3A0E76F1-DE07-441A-BFAC-1BEF8E49847A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[text()=&apos;insurance solutions&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value=".be-list-item:nth-child(1) &gt; .be-related-link" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;form&apos;]/div[4]/div/div/ul/li/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]/div/div/ul/li/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;https://www.amerisure.com/Why-Choose-Amerisure/Protecting-Businesses.aspx&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode13" Key="{1499A1B6-B7E2-497C-8367-D49F36640E2B}">
+										<Image FileName="1943450714" Left="1011" Top="1003" Right="1174" Bottom="1048" />
+										<Selectors>
+											<Selector>
+												<Value Value=".be-list-item:nth-child(2)" />
+											</Selector>
+											<Selector>
+												<Value Value="(//li[contains(.,&apos;Manufacturing&apos;)])[5]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;form&apos;]/div[4]/div/div/ul/li[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]/div/div/ul/li[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkManufacturing" Key="{F99D9B2A-D5B3-4018-B8F5-029266338A0A}">
+										<Image FileName="1943450714" Left="1011" Top="1017" Right="1174" Bottom="1034" />
+										<TypeInfo Item0="{3A0E76F1-DE07-441A-BFAC-1BEF8E49847A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[text()=&apos;Manufacturing&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value=".be-list-item:nth-child(2) &gt; .be-related-link" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;form&apos;]/div[4]/div/div/ul/li[2]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="(//a[contains(@href, &apos;Our-Expertise&apos;)])[6]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]/div/div/ul/li[2]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode14" Key="{834F9A40-97ED-43D4-A1C4-08346E0BCEC6}">
+										<Image FileName="739843743" Left="1174" Top="1003" Right="1298" Bottom="1048" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;claim cost&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value=".be-list-item:nth-child(3)" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;form&apos;]/div[4]/div/div/ul/li[3]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]/div/div/ul/li[3]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkClaimCost" Key="{243BDFCB-C2E2-4CBA-8187-F85B6E5F059F}">
+										<Image FileName="739843743" Left="1174" Top="1017" Right="1298" Bottom="1034" />
+										<TypeInfo Item0="{3A0E76F1-DE07-441A-BFAC-1BEF8E49847A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[text()=&apos;claim cost&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value=".be-list-item:nth-child(3) &gt; .be-related-link" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;form&apos;]/div[4]/div/div/ul/li[3]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="(//a[contains(@href, &apos;Claims&apos;)])[7]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]/div/div/ul/li[3]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeToReportAClaimPleaseClic" Key="{94DE043C-0D3B-4271-B0E2-71FE9C6516FB}">
+										<Image FileName="-815151803" Left="390" Top="801" Right="1127" Bottom="913" />
+										<TypeInfo Item0="{3A0E76F1-DE07-441A-BFAC-1BEF8E49847A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="p &gt; span" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[@id=&apos;main&apos;]/div/div/article/p/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//p/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelLb" Key="{BF41509D-4548-44F2-9A80-466DCF9145BB}">
+										<Image FileName="422854003" Left="390" Top="153" Right="691" Bottom="176" />
+										<TypeInfo Item0="{3A0E76F1-DE07-441A-BFAC-1BEF8E49847A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#p_lt_ctl04_wP_p_lt_ctl01_WebPartZone2Col_WebPartZone2Col_zone_BizForm_viewBiz_TypeOfRequest_lb" />
+											</Selector>
+											<Selector>
+												<Value Value="//label[text()=&apos;Type of Request:&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//label[@id=&apos;p_lt_ctl04_wP_p_lt_ctl01_WebPartZone2Col_WebPartZone2Col_zone_BizForm_viewBiz_TypeOfRequest_lb&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;p_lt_ctl04_wP_p_lt_ctl01_WebPartZone2Col_WebPartZone2Col_zone_BizForm_viewBiz_pnlForm&apos;]/table/tbody/tr/td/label" />
+											</Selector>
+											<Selector>
+												<Value Value="//td/label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelLb2" Key="{9FFFBBAD-1B42-476F-B0AF-C60934095560}">
+										<Image FileName="2046548829" Left="390" Top="209" Right="691" Bottom="232" />
+										<TypeInfo Item0="{3A0E76F1-DE07-441A-BFAC-1BEF8E49847A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#p_lt_ctl04_wP_p_lt_ctl01_WebPartZone2Col_WebPartZone2Col_zone_BizForm_viewBiz_FirstName_lb" />
+											</Selector>
+											<Selector>
+												<Value Value="//label[text()=&apos;First name:&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//label[@id=&apos;p_lt_ctl04_wP_p_lt_ctl01_WebPartZone2Col_WebPartZone2Col_zone_BizForm_viewBiz_FirstName_lb&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;p_lt_ctl04_wP_p_lt_ctl01_WebPartZone2Col_WebPartZone2Col_zone_BizForm_viewBiz_pnlForm&apos;]/table/tbody/tr[2]/td/label" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr[2]/td/label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelLb3" Key="{DA910C0F-1E9A-43F9-842F-569F4224E122}">
+										<Image FileName="932581209" Left="390" Top="266" Right="691" Bottom="289" />
+										<TypeInfo Item0="{3A0E76F1-DE07-441A-BFAC-1BEF8E49847A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#p_lt_ctl04_wP_p_lt_ctl01_WebPartZone2Col_WebPartZone2Col_zone_BizForm_viewBiz_LastName_lb" />
+											</Selector>
+											<Selector>
+												<Value Value="//label[text()=&apos;Last name:&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//label[@id=&apos;p_lt_ctl04_wP_p_lt_ctl01_WebPartZone2Col_WebPartZone2Col_zone_BizForm_viewBiz_LastName_lb&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;p_lt_ctl04_wP_p_lt_ctl01_WebPartZone2Col_WebPartZone2Col_zone_BizForm_viewBiz_pnlForm&apos;]/table/tbody/tr[3]/td/label" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr[3]/td/label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelLb4" Key="{B48B3AD9-639C-44B8-9B4A-C71F9BCDDEBD}">
+										<Image FileName="-60194143" Left="390" Top="323" Right="691" Bottom="346" />
+										<TypeInfo Item0="{3A0E76F1-DE07-441A-BFAC-1BEF8E49847A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#p_lt_ctl04_wP_p_lt_ctl01_WebPartZone2Col_WebPartZone2Col_zone_BizForm_viewBiz_Title_lb" />
+											</Selector>
+											<Selector>
+												<Value Value="//label[text()=&apos;Title:&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//label[@id=&apos;p_lt_ctl04_wP_p_lt_ctl01_WebPartZone2Col_WebPartZone2Col_zone_BizForm_viewBiz_Title_lb&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;p_lt_ctl04_wP_p_lt_ctl01_WebPartZone2Col_WebPartZone2Col_zone_BizForm_viewBiz_pnlForm&apos;]/table/tbody/tr[4]/td/label" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr[4]/td/label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelLb5" Key="{035EF54B-9B87-4A3C-A6F3-66B722621F26}">
+										<Image FileName="-1898876639" Left="390" Top="380" Right="691" Bottom="403" />
+										<TypeInfo Item0="{3A0E76F1-DE07-441A-BFAC-1BEF8E49847A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#p_lt_ctl04_wP_p_lt_ctl01_WebPartZone2Col_WebPartZone2Col_zone_BizForm_viewBiz_Company_lb" />
+											</Selector>
+											<Selector>
+												<Value Value="//label[text()=&apos;Company:&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//label[@id=&apos;p_lt_ctl04_wP_p_lt_ctl01_WebPartZone2Col_WebPartZone2Col_zone_BizForm_viewBiz_Company_lb&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;p_lt_ctl04_wP_p_lt_ctl01_WebPartZone2Col_WebPartZone2Col_zone_BizForm_viewBiz_pnlForm&apos;]/table/tbody/tr[5]/td/label" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr[5]/td/label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelLb6" Key="{20684432-C43E-4DA6-8174-FBACE39AB596}">
+										<Image FileName="1675444903" Left="390" Top="437" Right="691" Bottom="460" />
+										<TypeInfo Item0="{3A0E76F1-DE07-441A-BFAC-1BEF8E49847A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#p_lt_ctl04_wP_p_lt_ctl01_WebPartZone2Col_WebPartZone2Col_zone_BizForm_viewBiz_PhoneNumber_lb" />
+											</Selector>
+											<Selector>
+												<Value Value="//label[text()=&apos;Phone:&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//label[@id=&apos;p_lt_ctl04_wP_p_lt_ctl01_WebPartZone2Col_WebPartZone2Col_zone_BizForm_viewBiz_PhoneNumber_lb&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;p_lt_ctl04_wP_p_lt_ctl01_WebPartZone2Col_WebPartZone2Col_zone_BizForm_viewBiz_pnlForm&apos;]/table/tbody/tr[6]/td/label" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr[6]/td/label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelLb7" Key="{4D9B7BCF-D25D-43D8-8D24-E24CECA04BC1}">
+										<Image FileName="165699645" Left="390" Top="494" Right="691" Bottom="517" />
+										<TypeInfo Item0="{3A0E76F1-DE07-441A-BFAC-1BEF8E49847A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#p_lt_ctl04_wP_p_lt_ctl01_WebPartZone2Col_WebPartZone2Col_zone_BizForm_viewBiz_Email_lb" />
+											</Selector>
+											<Selector>
+												<Value Value="//label[text()=&apos;E-mail:&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//label[@id=&apos;p_lt_ctl04_wP_p_lt_ctl01_WebPartZone2Col_WebPartZone2Col_zone_BizForm_viewBiz_Email_lb&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;p_lt_ctl04_wP_p_lt_ctl01_WebPartZone2Col_WebPartZone2Col_zone_BizForm_viewBiz_pnlForm&apos;]/table/tbody/tr[7]/td/label" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr[7]/td/label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelLb8" Key="{309E5165-F08A-48E9-B94F-7577692BA9D8}">
+										<Image FileName="-668468439" Left="390" Top="551" Right="691" Bottom="574" />
+										<TypeInfo Item0="{3A0E76F1-DE07-441A-BFAC-1BEF8E49847A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#p_lt_ctl04_wP_p_lt_ctl01_WebPartZone2Col_WebPartZone2Col_zone_BizForm_viewBiz_Message_lb" />
+											</Selector>
+											<Selector>
+												<Value Value="//label[text()=&apos;Message:&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//label[@id=&apos;p_lt_ctl04_wP_p_lt_ctl01_WebPartZone2Col_WebPartZone2Col_zone_BizForm_viewBiz_Message_lb&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;p_lt_ctl04_wP_p_lt_ctl01_WebPartZone2Col_WebPartZone2Col_zone_BizForm_viewBiz_pnlForm&apos;]/table/tbody/tr[8]/td/label" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr[8]/td/label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="submitbuttonSend" Key="{C2985938-B051-49DC-827A-F75C7483F22F}">
+										<Image FileName="-815151803" Left="691" Top="721" Right="759" Bottom="754" />
+										<TypeInfo Item0="{9B8213A6-6793-4F52-845D-627A5C94EC81}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#p_lt_ctl04_wP_p_lt_ctl01_WebPartZone2Col_WebPartZone2Col_zone_BizForm_viewBiz_btnOK" />
+											</Selector>
+											<Selector>
+												<Value Value="*[name=&apos;p$lt$ctl04$wP$p$lt$ctl01$WebPartZone2Col$WebPartZone2Col_zone$BizForm$viewBiz$btnOK&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@id=&apos;p_lt_ctl04_wP_p_lt_ctl01_WebPartZone2Col_WebPartZone2Col_zone_BizForm_viewBiz_btnOK&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;p_lt_ctl04_wP_p_lt_ctl01_WebPartZone2Col_WebPartZone2Col_zone_BizForm_viewBiz_pnlForm&apos;]/table/tbody/tr[9]/td[2]/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//td[2]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkLetUsKnowByClickingHere" Key="{33CB7D10-AEA5-4AF3-A343-F19B5FBB3CC0}">
+										<Image FileName="46450149" Left="1233" Top="550" Right="1474" Bottom="570" />
+										<TypeInfo Item0="{3A0E76F1-DE07-441A-BFAC-1BEF8E49847A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[text()=&apos;Let us know by clicking here.&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="strong:nth-child(1) &gt; a" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[@id=&apos;main&apos;]/div/div/aside/div[3]/p[2]/strong/a" />
+											</Selector>
+											<Selector>
+												<Value Value="(//a[contains(@href, &apos;Careers/Our-People&apos;)])[3]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p[2]/strong/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageAmerisurePowerfulPartnership" Key="{D118AA58-33BC-4CA1-A1D3-47A282F9119F}">
+								<Image FileName="-50932245" Left="8" Top="79" Right="1928" Bottom="1048" />
+								<TypeInfo Item0="{5D6C0CA9-8F55-480E-A308-370652DAF3CF}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.amerisure.com/Home.aspx" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="form" Key="{F6FDA918-9DED-48C6-B997-EE70A6AD8951}">
+										<Image FileName="-50932245" Left="8" Top="93" Right="1911" Bottom="1625" />
+										<TypeInfo Item0="{8711C479-7DFF-4906-A835-A042CED2DB76}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#form" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(., &apos;//&lt;![CDATA[&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;form&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="headerMasthead" Key="{FB7FD3EE-D32A-47A6-84A5-C8F967BC14CD}">
+										<Image FileName="-50932245" Left="343" Top="93" Right="1576" Bottom="201" />
+										<TypeInfo Item0="{8711C479-7DFF-4906-A835-A042CED2DB76}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#masthead" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[contains(., &apos;Contact Us&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;masthead&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;form&apos;]/header[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="imageImgimage" Key="{EE2ED0D9-3199-44B7-A4D4-EAF3E33D40A4}">
+										<Image FileName="-50932245" Left="390" Top="93" Right="611" Bottom="176" />
+										<TypeInfo Item0="{8711C479-7DFF-4906-A835-A042CED2DB76}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//img[@alt=&apos;Amerisure Insurance Logo&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;masthead&apos;]/div/div/a/img" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;/&apos;)]/img" />
+											</Selector>
+											<Selector>
+												<Value Value="//img" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode" Key="{41D7FF7B-D26E-4F8C-A319-D311CE55A279}">
+										<Image FileName="2072280883" Left="652" Top="103" Right="752" Bottom="131" />
+										<TypeInfo Item0="{2172D922-C05E-4CE1-8C50-C37CD5E3CDCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Contact Us&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value=".CMSListMenuLI:nth-child(1)" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@id=&apos;menuElem&apos;]/li" />
+											</Selector>
+											<Selector>
+												<Value Value="//li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkContactUs" Key="{FCE6F5EF-93E2-450A-8B14-CB6E2266EA74}">
+										<Image FileName="2072280883" Left="652" Top="107" Right="752" Bottom="127" />
+										<TypeInfo Item0="{6A9CD63A-C073-4DAD-943C-EA35B9D90E9D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="a[href=&apos;/Contact-Us.aspx&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[text()=&apos;Contact Us&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value=".CMSListMenuLI:nth-child(1) &gt; [href=&apos;/Contact-Us.aspx&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@id=&apos;menuElem&apos;]/li/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;/Contact-Us.aspx&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode2" Key="{78A17C17-939D-4185-959A-769C45CC6B12}">
+										<Image FileName="377224584" Left="1085" Top="95" Right="1231" Bottom="123" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Make a Payment&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value=".CMSListMenuLI:nth-child(4)" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@id=&apos;menuElem&apos;]/li[4]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[4]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkMakeAPayment" Key="{DD372030-9721-4842-AA62-982FF6B5346E}">
+										<Image FileName="377224584" Left="1085" Top="99" Right="1231" Bottom="119" />
+										<TypeInfo Item0="{3A0E76F1-DE07-441A-BFAC-1BEF8E49847A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="a[href*=&apos;billpay-reg.amerisure.com&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[text()=&apos;Make a Payment&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value=".CMSListMenuLI:nth-child(4) &gt; .CMSListMenuLink" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@id=&apos;menuElem&apos;]/li[4]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[4]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;https://billpay-reg.amerisure.com/&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="BrowserWindow2" Key="{3B83B753-EF29-4E41-82F4-4EFF7249475A}">
+								<Image FileName="1500593286" Left="-8" Top="-8" Right="1928" Bottom="1048" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Chrome_RenderWidgetHostHWND" Key="{547DB963-B4BF-4C73-B6A7-2C7E6E5AC674}">
+										<Image FileName="-1562962908" Left="0" Top="71" Right="1920" Bottom="983" />
+										<TypeInfo Item0="{41C0FDC3-CA9E-40BF-9749-0B554B86AAE8}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Chrome_RenderWidgetHostHWND" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="Chrome Legacy Window" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageContactUsAmerisure" Key="{F86694EC-C7DA-415A-B7F4-DAAEFD4E03D5}">
+								<Image FileName="1500593286" Left="0" Top="71" Right="1920" Bottom="1040" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.amerisure.com/Contact-Us.aspx" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="form" Key="{E04D7D4E-DEA8-4D1D-B1D8-645A8EED4D0C}">
+										<Image FileName="1500593286" Left="0" Top="-152" Right="1903" Bottom="1040" />
+										<Selectors>
+											<Selector>
+												<Value Value="#form" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(., &apos;//&lt;![CDATA[&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;form&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="sectionMain" Key="{4090FF4A-57C7-4BC2-800F-536261798121}">
+										<Image FileName="1500593286" Left="0" Top="-44" Right="1903" Bottom="995" />
+										<Selectors>
+											<Selector>
+												<Value Value="#main" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Contact Us&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[@id=&apos;main&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;form&apos;]/section" />
+											</Selector>
+											<Selector>
+												<Value Value="//section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="selectTypeOfRequest" Key="{10043459-6B4D-44BD-8CAF-DDB7FEB753AD}">
+										<Image FileName="1500593286" Left="683" Top="190" Right="1082" Bottom="226" />
+										<TypeInfo Item0="{164FF0A0-9AF2-4C15-A15B-A10B857DA4B8}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#p_lt_ctl04_wP_p_lt_ctl01_WebPartZone2Col_WebPartZone2Col_zone_BizForm_viewBiz_TypeOfRequest_dropDownList" />
+											</Selector>
+											<Selector>
+												<Value Value="*[name=&apos;p$lt$ctl04$wP$p$lt$ctl01$WebPartZone2Col$WebPartZone2Col_zone$BizForm$viewBiz$TypeOfRequest$dropDownList&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//select[@id=(//label[text()=&apos;Type of Request:&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//select[@id=&apos;p_lt_ctl04_wP_p_lt_ctl01_WebPartZone2Col_WebPartZone2Col_zone_BizForm_viewBiz_TypeOfRequest_dropDownList&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;p_lt_ctl04_wP_p_lt_ctl01_WebPartZone2Col_WebPartZone2Col_zone_BizForm_viewBiz_ncptypeofrequest&apos;]/select" />
+											</Selector>
+											<Selector>
+												<Value Value="//select" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textareaMessage" Key="{492FACD5-E465-494A-8ADA-E143C54FD6DC}">
+										<Image FileName="1312388298" Left="683" Top="543" Right="1082" Bottom="693" />
+										<TypeInfo Item0="{3A0E76F1-DE07-441A-BFAC-1BEF8E49847A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#p_lt_ctl04_wP_p_lt_ctl01_WebPartZone2Col_WebPartZone2Col_zone_BizForm_viewBiz_Message_txtText" />
+											</Selector>
+											<Selector>
+												<Value Value="*[name=&apos;p$lt$ctl04$wP$p$lt$ctl01$WebPartZone2Col$WebPartZone2Col_zone$BizForm$viewBiz$Message$txtText&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//textarea[@id=&apos;p_lt_ctl04_wP_p_lt_ctl01_WebPartZone2Col_WebPartZone2Col_zone_BizForm_viewBiz_Message_txtText&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;p_lt_ctl04_wP_p_lt_ctl01_WebPartZone2Col_WebPartZone2Col_zone_BizForm_viewBiz_ncpmessage&apos;]/textarea" />
+											</Selector>
+											<Selector>
+												<Value Value="//textarea" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxEMail" Key="{70252C07-50E7-45FE-882E-448C629546B0}">
+										<Image FileName="-885858162" Left="683" Top="486" Right="1082" Bottom="523" />
+										<TypeInfo Item0="{744480F4-1C88-41CD-9208-14418925835C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#p_lt_ctl04_wP_p_lt_ctl01_WebPartZone2Col_WebPartZone2Col_zone_BizForm_viewBiz_Email_txtEmailInput" />
+											</Selector>
+											<Selector>
+												<Value Value="*[name=&apos;p$lt$ctl04$wP$p$lt$ctl01$WebPartZone2Col$WebPartZone2Col_zone$BizForm$viewBiz$Email$txtEmailInput&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@id=(//label[text()=&apos;E-mail:&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@id=&apos;p_lt_ctl04_wP_p_lt_ctl01_WebPartZone2Col_WebPartZone2Col_zone_BizForm_viewBiz_Email_txtEmailInput&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;p_lt_ctl04_wP_p_lt_ctl01_WebPartZone2Col_WebPartZone2Col_zone_BizForm_viewBiz_ncpemail&apos;]/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr[7]/td[2]/div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageHomeEbpp" Key="{07009432-3912-46BD-852D-2852F9578854}">
+								<Image FileName="-22324757" Left="0" Top="71" Right="1920" Bottom="1040" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://billpay-reg.amerisure.com/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="buttonSignIn" Key="{A2F455E1-7114-4937-BE3A-45834E0AD4BA}">
+										<Image FileName="-22324757" Left="260" Top="378" Right="415" Bottom="424" />
+										<TypeInfo Item0="{9B8213A6-6793-4F52-845D-627A5C94EC81}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#signIn" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[text()=&apos;SIGN IN&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@id=&apos;signIn&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;mainBody&apos;]/div/div[2]/div/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonProceed" Key="{3D6AA5C5-1A43-42E0-A195-315CBA025200}">
+										<Image FileName="-1465590177" Left="893" Top="609" Right="966" Bottom="643" />
+										<TypeInfo Item0="{9B8213A6-6793-4F52-845D-627A5C94EC81}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#SignInAgree" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@id=&apos;SignInAgree&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;loadData&apos;]/div[2]/div/div[3]/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageAuthorize" Key="{DD6155F3-4A23-4ED1-87EE-10D8DBBB663E}">
+								<Image FileName="-22324757" Left="0" Top="71" Right="1920" Bottom="1040" />
+								<TypeInfo Item0="{E17F7923-40AB-43F9-853C-D52ED1849E14}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://login.microsoftonline.com/0dc9b4f2-3565-4653-bc1a-3624c78ec52d/oauth2/v2.0/authorize*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="panel" Key="{EFE624BD-7D90-4E7D-A215-9F75F7C301DE}">
+										<Image FileName="52708227" Left="832" Top="517" Right="1113" Bottom="565" />
+										<TypeInfo Item0="{3A0E76F1-DE07-441A-BFAC-1BEF8E49847A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="[data-test-id=&apos;thasan@amerisure.com&apos;] .text-left" />
+											</Selector>
+											<Selector>
+												<Value Value="(//div[contains(.,&apos;THASAN@amerisure.com&apos;)])[22]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;tilesHolder&apos;]/div/div/div/div/div[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/div[2]/div/div/div/div/div/div/div[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageLogin" Key="{3B62CD51-A90D-4C4E-A4DF-9F5581E486B6}">
+								<Image FileName="-22324757" Left="0" Top="71" Right="1920" Bottom="1040" />
+								<TypeInfo Item0="{E17F7923-40AB-43F9-853C-D52ED1849E14}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://amerisure.okta.com/login/login.htm*" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageLoading" Key="{AB82D649-437D-4205-84BC-7055DDCD7B8E}">
+								<Image FileName="-22324757" Left="0" Top="71" Right="1920" Bottom="1040" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://portalone.processonepayments.com/GenericPortal/unauthorized/access-denied" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnodeUnauthorized" Key="{FC65D7BF-8CEE-4986-9023-23D6716A4761}">
+										<Image FileName="1212692804" Left="822" Top="507" Right="1098" Bottom="559" />
+										<TypeInfo Item0="{3A0E76F1-DE07-441A-BFAC-1BEF8E49847A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h1[text()=&apos;UNAUTHORIZED&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="h1" />
+											</Selector>
+											<Selector>
+												<Value Value="//h1" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeYouAreNotAuthorizedToAcc" Key="{236B06AD-66F3-4CE5-94AE-294F68199F88}">
+										<Image FileName="1212692804" Left="638" Top="566" Right="1281" Bottom="597" />
+										<TypeInfo Item0="{3A0E76F1-DE07-441A-BFAC-1BEF8E49847A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h2[text()=&apos;You are not authorized to access the content you have requested.&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="h2" />
+											</Selector>
+											<Selector>
+												<Value Value="//h2" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageAmerisureSureconnectSignIn" Key="{8C535AB0-BE57-4B56-AB0A-17E96C37EC44}">
+								<Image FileName="-1779561110" Left="0" Top="71" Right="1920" Bottom="1040" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://sureconnect.amerisure.com/Anonymous/Login*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formForm1" Key="{8C14A198-595B-4465-AC92-02E0D6D4F173}">
+										<Image FileName="-1779561110" Left="0" Top="71" Right="1903" Bottom="1040" />
+										<Selectors>
+											<Selector>
+												<Value Value="#form1" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(., &apos;//&lt;![CDATA[&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;form1&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//body[@id=&apos;GetEvents&apos;]/form" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelMasterwrapper" Key="{104E2AF1-B050-43A8-BD3E-E83BA85C258F}">
+										<Image FileName="-1779561110" Left="0" Top="71" Right="1903" Bottom="940" />
+										<TypeInfo Item0="{3A0E76F1-DE07-441A-BFAC-1BEF8E49847A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#MasterWrapper" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;MasterWrapper&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;form1&apos;]/div[4]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="submitbuttonSignIn" Key="{17D4A003-D937-4998-A73E-64EEC6983AB0}">
+										<Image FileName="1217893103" Left="793" Top="440" Right="1111" Bottom="474" />
+										<TypeInfo Item0="{9B8213A6-6793-4F52-845D-627A5C94EC81}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#MasterContent_BtnAzureLogin" />
+											</Selector>
+											<Selector>
+												<Value Value="*[name=&apos;ctl00$MasterContent$BtnAzureLogin&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@id=&apos;MasterContent_BtnAzureLogin&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;MasterContent_PnlLogin&apos;]/div[2]/div[2]/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div[2]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageConstructionExpertiseAndSolu" Key="{E93927C5-80C6-4992-BA69-D8806AF81D0B}">
+								<Image FileName="1436635200" Left="0" Top="71" Right="1920" Bottom="1040" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.amerisure.com/Why-Choose-Amerisure/Our-Expertise/Construction/Construction-Expertise-and-Solutions.aspx" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="object16d79200128d99f64ac9b18dc5" Key="{DF5E326C-9246-415B-86A8-6ABD90458CBF}">
+										<Image FileName="1436635200" Left="0" Top="71" Right="1920" Bottom="1040" />
+										<TypeInfo Item0="{3A0E76F1-DE07-441A-BFAC-1BEF8E49847A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//embed[@type=&apos;application/pdf&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//embed" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageConstruction" Key="{57ABE4CB-3D93-490E-9798-2E39EB45CB2A}">
+								<Image FileName="1436635200" Left="0" Top="71" Right="1920" Bottom="1040" />
+								<TypeInfo Item0="{E17F7923-40AB-43F9-853C-D52ED1849E14}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.amerisure.com/Why-Choose-Amerisure/Our-Expertise/Construction.aspx" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageMaintenanceOnlinePayrollRepo" Key="{733E8433-1557-42E3-8721-03ABF32AA73C}">
+								<Image FileName="-3662029" Left="0" Top="71" Right="1920" Bottom="1040" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://opr.amerisure.com/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="imageMaincontentUcloginImglogo" Key="{E8B61F19-8AF3-4EE1-9963-74624280C6C9}">
+										<Image FileName="-3662029" Left="802" Top="206" Right="1095" Bottom="346" />
+										<TypeInfo Item0="{3A0E76F1-DE07-441A-BFAC-1BEF8E49847A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#MainContent_UCLogin_ImgLogo" />
+											</Selector>
+											<Selector>
+												<Value Value="//img[contains(@src,&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA/sAAAHnCAYAAADn803zAAAACXBIWXMAAAsTAAALEwEAmpwYAAAF62lUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMxNDIgNzkuMTYwOTI0LCAyMDE3LzA3LzEzLTAxOjA2OjM5ICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ0MgKFdpbmRvd3MpIiB4bXA6Q3JlYXRlRGF0ZT0iMjAxOC0wMi0xOVQxMzoxMToyNC0wNTowMCIgeG1wOk1vZGlmeURhdGU9IjIwMTgtMDItMjNUMTY6NTg6MTMtMDU6MDAiIHhtcDpNZXRhZGF0YURhdGU9IjIwMTgtMDItMjNUMTY6NTg6MTMtMDU6MDAiIGRjOmZvcm1hdD0iaW1hZ2UvcG5nIiBwaG90b3Nob3A6Q29sb3JNb2RlPSIzIiBwaG90b3Nob3A6SUNDUHJvZmlsZT0ic1JHQiBJRUM2MTk2Ni0yLjEiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OTUzMjkzNjAtNzBmYS0zMzRkLWE0YTgtODUyYWNmOTUzZTdlIiB4bXBNTTpEb2N1bWVudElEPSJhZG9iZTpkb2NpZDpwaG90b3Nob3A6ZDkzNTE1NWItNTgxYi1lNTRjLWFkNTUtZmQzNzFhNDkyMTVhIiB4bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ9InhtcC5kaWQ6NDlhMWFkYzAtZDEyNi1lNzRlLTg1N2QtZWVhNjljODJiMDAwIj4gPHhtcE1NOkhpc3Rvcnk+IDxyZGY6U2VxPiA8cmRmOmxpIHN0RXZ0OmFjdGlvbj0iY3JlYXRlZCIgc3RFdnQ6aW5zdGFuY2VJRD0ieG1wLmlpZDo0OWExYWRjMC1kMTI2LWU3NGUtODU3ZC1lZWE2OWM4MmIwMDAiIHN0RXZ0OndoZW49IjIwMTgtMDItMTlUMTM6MTE6MjQtMDU6MDAiIHN0RXZ0OnNvZnR3YXJlQWdlbnQ9IkFkb2JlIFBob3Rvc2hvcCBDQyAoV2luZG93cykiLz4gPHJkZjpsaSBzdEV2dDphY3Rpb249InNhdmVkIiBzdEV2dDppbnN0YW5jZUlEPSJ4bXAuaWlkOjk1MzI5MzYwLTcwZmEtMzM0ZC1hNGE4LTg1MmFjZjk1M2U3ZSIgc3RFdnQ6d2hlbj0iMjAxOC0wMi0yM1QxNjo1ODoxMy0wNTowMCIgc3RFdnQ6c29mdHdhcmVBZ2VudD0iQWRvYmUgUGhvdG9zaG9wIENDIChXaW5kb3dzKSIgc3RFdnQ6Y2hhbmdlZD0iLyIvPiA8L3JkZjpTZXE+IDwveG1wTU06SGlzdG9yeT4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz6XtltNAABX9UlEQVR4nO3dd7gkVZnH8e8QiiRBJDaKQCMIqIVtADOiYkJFTKgkERHTirqGMsuqtbqKWUGCgsAiLooJV0ywBEWlpRBFhEYkNBkBiUWY/aMKHcYZuKFPne7q7+d5+hmYufe8LzPDvf2rkxYsXLgQSZIkSZLUHsvEbkCSJEmSJI2WYV+SJEmSpJYx7EuSJEmS1DKGfUmSJEmSWsawL0mSJElSyxj2JUmSJElqGcO+JEmSJEktY9iXJEmSJKllDPuSJEmSJLWMYV+SJEmSpJYx7EuSJEmS1DKG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&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//img[@id=&apos;MainContent_UCLogin_ImgLogo&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;MainContent_UCLogin_UpdPnlLogin&apos;]/div/div[2]/div/img" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/img" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageReportPayrollAmerisure" Key="{6740ACBA-059A-4064-BF23-2B237EC90A29}">
+								<Image FileName="-780430642" Left="0" Top="71" Right="1920" Bottom="1007" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.amerisure.com/Report-Payroll.aspx" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnodeReportPayrollAmerisureFl" Key="{D4647C5C-28A2-47EC-A6B0-E79ABF679317}">
+										<Image FileName="-780430642" Left="0" Top="71" Right="1920" Bottom="705" />
+										<TypeInfo Item0="{3A0E76F1-DE07-441A-BFAC-1BEF8E49847A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//html[contains(., &apos;Report Payroll | Amerisure&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//html" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="form" Key="{97EED1DB-CA40-4C3F-9C05-A2976765AB19}">
+										<Image FileName="624144054" Left="0" Top="85" Right="1920" Bottom="705" />
+										<Selectors>
+											<Selector>
+												<Value Value="#form" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(., &apos;//&lt;![CDATA[&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;form&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="sectionMain" Key="{0C5BDB27-02FF-4FBD-8B25-A7AADE69B80E}">
+										<Image FileName="624144054" Left="0" Top="193" Right="1920" Bottom="570" />
+										<Selectors>
+											<Selector>
+												<Value Value="#main" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Report Payroll&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[@id=&apos;main&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;form&apos;]/section" />
+											</Selector>
+											<Selector>
+												<Value Value="//section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkAccessUserGuide" Key="{219185AD-F7F0-4748-AF75-5D7411D925B0}">
+										<Image FileName="624144054" Left="391" Top="483" Right="556" Bottom="505" />
+										<TypeInfo Item0="{3A0E76F1-DE07-441A-BFAC-1BEF8E49847A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="a[href*=&apos;Payroll-Reporting-Instructions.aspx&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[text()=&apos;Access user guide&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="a:nth-child(7)" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[@id=&apos;main&apos;]/div/div/article/a[3]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[3]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;/Tools-and-Resources/Payroll-Reporting-(1)/Payroll-Reporting-Instructions.aspx&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkFaqs" Key="{CF14320B-8A97-402D-AA97-1891F0B89744}">
+										<Image FileName="1243201088" Left="391" Top="460" Right="442" Bottom="482" />
+										<TypeInfo Item0="{3A0E76F1-DE07-441A-BFAC-1BEF8E49847A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="a[href*=&apos;FAQs.aspx&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[text()=&apos;FAQs&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="a:nth-child(5)" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[@id=&apos;main&apos;]/div/div/article/a[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;FAQs.aspx&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//article/a[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pagePayrollReportingInstructions" Key="{1F30E85C-8F13-4AAE-9696-CAD69A2132FC}">
+								<TypeInfo Item0="{E17F7923-40AB-43F9-853C-D52ED1849E14}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.amerisure.com/Report-Payroll/Payroll-Reporting-Instructions.aspx" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="object15ebe2dedb7820de4ff78c4c91" Key="{5381CBDE-A308-4390-A772-2DCE1E84553D}">
+										<Image FileName="2053798390" Left="0" Top="71" Right="1920" Bottom="1040" />
+										<TypeInfo Item0="{3A0E76F1-DE07-441A-BFAC-1BEF8E49847A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//embed[@type=&apos;application/pdf&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//embed" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{0006778D-BA5B-4DFD-9B0C-F159F1CCD832}">
+			<Child Name="BrowserWindow" Owner="{D87004E9-7DCC-47A1-B15C-8C86AD86919C}" />
+			<Child Name="pageContactUs" Owner="{B6E514A1-9304-435B-AE03-397A5D32C818}">
+				<Child Name="form" Owner="{2F43C770-EA40-4A1E-B036-FCBF87ABD6F7}">
+					<Child Name="headerMasthead" Owner="{1F68384F-3445-470A-9394-EE12C01012A9}">
+						<Child Name="textnode" Owner="{26D723CB-DEC2-4741-B123-9DA73F5AAFCD}">
+							<Child Name="linkContactUs" Owner="{CE58143B-D4AD-4D62-877B-29084D9483A0}" />
+						</Child>
+						<Child Name="imageImgimage" Owner="{9B01A249-C340-4C5E-8367-27FC56452E0D}" />
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="pageHome" Owner="{BAAD1DAA-7AE6-472F-A9CC-600A00F125BF}">
+				<Child Name="form" Owner="{725C3704-4CB2-479A-9DF1-F2C4D105CE17}">
+					<Child Name="sectionMain" Owner="{FA61E9DC-F2B7-4848-B9D6-22EACD4080E8}">
+						<Child Name="selectTypeOfRequest" Owner="{CC1E8487-11D7-41ED-B6B6-057039D22F3C}" />
+						<Child Name="textnodeContactUs" Owner="{93C28B73-1EA5-4957-A646-312310E7DF4C}" />
+						<Child Name="textnodeCorporateHeadquarters" Owner="{6C8F397B-59B8-4D99-8594-EF7203927ADC}" />
+						<Child Name="textnodeToReportAClaimPleaseClic" Owner="{94DE043C-0D3B-4271-B0E2-71FE9C6516FB}" />
+						<Child Name="labelLb" Owner="{BF41509D-4548-44F2-9A80-466DCF9145BB}" />
+						<Child Name="labelLb2" Owner="{9FFFBBAD-1B42-476F-B0AF-C60934095560}" />
+						<Child Name="labelLb3" Owner="{DA910C0F-1E9A-43F9-842F-569F4224E122}" />
+						<Child Name="labelLb4" Owner="{B48B3AD9-639C-44B8-9B4A-C71F9BCDDEBD}" />
+						<Child Name="labelLb5" Owner="{035EF54B-9B87-4A3C-A6F3-66B722621F26}" />
+						<Child Name="labelLb6" Owner="{20684432-C43E-4DA6-8174-FBACE39AB596}" />
+						<Child Name="labelLb7" Owner="{4D9B7BCF-D25D-43D8-8D24-E24CECA04BC1}" />
+						<Child Name="labelLb8" Owner="{309E5165-F08A-48E9-B94F-7577692BA9D8}" />
+						<Child Name="submitbuttonSend" Owner="{C2985938-B051-49DC-827A-F75C7483F22F}" />
+						<Child Name="linkLetUsKnowByClickingHere" Owner="{33CB7D10-AEA5-4AF3-A343-F19B5FBB3CC0}" />
+					</Child>
+					<Child Name="headerMasthead" Owner="{81C5DBA4-2605-49EC-89A5-63AF4D66B5BC}">
+						<Child Name="textnode" Owner="{61E362E3-1D3E-4762-8B41-CD4CFC6A0A18}">
+							<Child Name="linkPolicyholderResources" Owner="{0B35995E-03C2-4388-99CF-13514C5049FA}" />
+						</Child>
+						<Child Name="textnode2" Owner="{ED61A05D-210B-41B1-8383-0E3B79483FDA}">
+							<Child Name="linkReportPayroll" Owner="{66B2C9A8-49CB-418E-B2CD-20630E742302}" />
+						</Child>
+						<Child Name="textnode3" Owner="{7F415F52-96DA-43BF-933D-C6E88AE58108}">
+							<Child Name="linkMakeAPayment" Owner="{126F67AA-693E-4701-9EFB-AD0342F49564}" />
+						</Child>
+						<Child Name="textnode4" Owner="{26E7D8D5-9768-4BB1-A8F3-7A8D86CD206F}">
+							<Child Name="linkReportAClaim" Owner="{6B3EF496-199F-4D44-88AA-B65E93BF1992}" />
+						</Child>
+						<Child Name="linkSureconnectAmerisureCom" Owner="{DB3037FC-0099-400E-A840-AC19E5E91E44}">
+							<Child Name="imageBrandingSureconnect1Png" Owner="{1D89D277-01FC-47FF-B234-BB98E1DE24FE}" />
+						</Child>
+					</Child>
+					<Child Name="textnode5" Owner="{6C311490-AC04-4052-BA87-B3FC215C9BED}">
+						<Child Name="textnode6" Owner="{539E713E-147A-4F75-AECD-C2F7DBF9B7BC}">
+							<Child Name="linkWhyChooseAmerisure" Owner="{0CB7E143-B5D9-438B-AA81-C201B84F09BB}" />
+						</Child>
+						<Child Name="textnode7" Owner="{2BE77026-1A92-48B5-A1B3-4C8C0B55F3EC}">
+							<Child Name="linkAboutUs" Owner="{984B1D0E-0CCC-424A-BC3D-E1A03D73A04E}" />
+						</Child>
+						<Child Name="textnode8" Owner="{157E4B48-E8FE-4E3A-B9BC-8E7F992FB5B7}">
+							<Child Name="linkProductsServices" Owner="{7F26C41C-8BC6-41FF-9D9B-7DEF305C56B7}" />
+						</Child>
+						<Child Name="linkInsightsBlog" Owner="{28B194EF-2D4D-471C-9BC2-BCB7C42A1FBB}" />
+						<Child Name="textnode9" Owner="{69CFFCD5-4314-44C4-B76D-08E3A38B50D9}">
+							<Child Name="linkCareers" Owner="{3C1E7FD9-A6BB-4793-9241-D61FDB0BCA69}" />
+						</Child>
+					</Child>
+					<Child Name="footerSiteInfo" Owner="{43D01C3B-769A-4252-A385-1442028606CB}">
+						<Child Name="textnode10" Owner="{357053A6-8601-4A3A-B795-D88CF9312C96}">
+							<Child Name="linkNewsroom" Owner="{7C953849-26DA-49F2-B31A-608DD2B680A5}" />
+							<Child Name="linkPrivacyPolicy" Owner="{01954043-72B2-461B-86EB-C0389DE9950A}" />
+							<Child Name="linkCompensationPolicy" Owner="{A57DBCB1-9988-465F-A3C2-0CE249587332}" />
+							<Child Name="linkTermsAndConditions" Owner="{9BB09535-99D0-48E3-AFE0-F48A533E6CA1}" />
+							<Child Name="linkSiteMap" Owner="{44D803CB-618E-4A78-B1AD-F594C63FF4C7}" />
+							<Child Name="linkCaPrivacy" Owner="{89AF945F-2F47-4C30-BDC3-FA42FEA58FB2}" />
+						</Child>
+					</Child>
+					<Child Name="panel" Owner="{211C1C59-0D71-4004-BBE6-B3216891F9A2}" />
+					<Child Name="textnode11" Owner="{230C4DA7-F4CD-4CB3-96B2-7BBE522DE003}">
+						<Child Name="textnode12" Owner="{DE37486C-B9CC-467B-BD92-447C08DE6F33}">
+							<Child Name="linkInsuranceSolutions" Owner="{0E64534F-9485-43E9-A0BE-5A7BD606165F}" />
+						</Child>
+						<Child Name="textnode13" Owner="{1499A1B6-B7E2-497C-8367-D49F36640E2B}">
+							<Child Name="linkManufacturing" Owner="{F99D9B2A-D5B3-4018-B8F5-029266338A0A}" />
+						</Child>
+						<Child Name="textnode14" Owner="{834F9A40-97ED-43D4-A1C4-08346E0BCEC6}">
+							<Child Name="linkClaimCost" Owner="{243BDFCB-C2E2-4CBA-8187-F85B6E5F059F}" />
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="pageAmerisurePowerfulPartnership" Owner="{D118AA58-33BC-4CA1-A1D3-47A282F9119F}">
+				<Child Name="form" Owner="{F6FDA918-9DED-48C6-B997-EE70A6AD8951}">
+					<Child Name="headerMasthead" Owner="{FB7FD3EE-D32A-47A6-84A5-C8F967BC14CD}">
+						<Child Name="imageImgimage" Owner="{EE2ED0D9-3199-44B7-A4D4-EAF3E33D40A4}" />
+						<Child Name="textnode" Owner="{41D7FF7B-D26E-4F8C-A319-D311CE55A279}">
+							<Child Name="linkContactUs" Owner="{FCE6F5EF-93E2-450A-8B14-CB6E2266EA74}" />
+						</Child>
+						<Child Name="textnode2" Owner="{78A17C17-939D-4185-959A-769C45CC6B12}">
+							<Child Name="linkMakeAPayment" Owner="{DD372030-9721-4842-AA62-982FF6B5346E}" />
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="BrowserWindow2" Owner="{3B83B753-EF29-4E41-82F4-4EFF7249475A}">
+				<Child Name="Chrome_RenderWidgetHostHWND" Owner="{547DB963-B4BF-4C73-B6A7-2C7E6E5AC674}" />
+			</Child>
+			<Child Name="pageContactUsAmerisure" Owner="{F86694EC-C7DA-415A-B7F4-DAAEFD4E03D5}">
+				<Child Name="form" Owner="{E04D7D4E-DEA8-4D1D-B1D8-645A8EED4D0C}">
+					<Child Name="sectionMain" Owner="{4090FF4A-57C7-4BC2-800F-536261798121}">
+						<Child Name="selectTypeOfRequest" Owner="{10043459-6B4D-44BD-8CAF-DDB7FEB753AD}" />
+						<Child Name="textareaMessage" Owner="{492FACD5-E465-494A-8ADA-E143C54FD6DC}" />
+						<Child Name="textboxEMail" Owner="{70252C07-50E7-45FE-882E-448C629546B0}" />
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="pageHomeEbpp" Owner="{07009432-3912-46BD-852D-2852F9578854}">
+				<Child Name="buttonSignIn" Owner="{A2F455E1-7114-4937-BE3A-45834E0AD4BA}" />
+				<Child Name="buttonProceed" Owner="{3D6AA5C5-1A43-42E0-A195-315CBA025200}" />
+			</Child>
+			<Child Name="pageAuthorize" Owner="{DD6155F3-4A23-4ED1-87EE-10D8DBBB663E}">
+				<Child Name="panel" Owner="{EFE624BD-7D90-4E7D-A215-9F75F7C301DE}" />
+			</Child>
+			<Child Name="pageLogin" Owner="{3B62CD51-A90D-4C4E-A4DF-9F5581E486B6}" />
+			<Child Name="pageLoading" Owner="{AB82D649-437D-4205-84BC-7055DDCD7B8E}">
+				<Child Name="textnodeUnauthorized" Owner="{FC65D7BF-8CEE-4986-9023-23D6716A4761}" />
+				<Child Name="textnodeYouAreNotAuthorizedToAcc" Owner="{236B06AD-66F3-4CE5-94AE-294F68199F88}" />
+			</Child>
+			<Child Name="pageAmerisureSureconnectSignIn" Owner="{8C535AB0-BE57-4B56-AB0A-17E96C37EC44}">
+				<Child Name="formForm1" Owner="{8C14A198-595B-4465-AC92-02E0D6D4F173}">
+					<Child Name="panelMasterwrapper" Owner="{104E2AF1-B050-43A8-BD3E-E83BA85C258F}" />
+					<Child Name="submitbuttonSignIn" Owner="{17D4A003-D937-4998-A73E-64EEC6983AB0}" />
+				</Child>
+			</Child>
+			<Child Name="pageConstructionExpertiseAndSolu" Owner="{E93927C5-80C6-4992-BA69-D8806AF81D0B}">
+				<Child Name="object16d79200128d99f64ac9b18dc5" Owner="{DF5E326C-9246-415B-86A8-6ABD90458CBF}" />
+			</Child>
+			<Child Name="pageConstruction" Owner="{57ABE4CB-3D93-490E-9798-2E39EB45CB2A}" />
+			<Child Name="pageMaintenanceOnlinePayrollRepo" Owner="{733E8433-1557-42E3-8721-03ABF32AA73C}">
+				<Child Name="imageMaincontentUcloginImglogo" Owner="{E8B61F19-8AF3-4EE1-9963-74624280C6C9}" />
+			</Child>
+			<Child Name="pageReportPayrollAmerisure" Owner="{6740ACBA-059A-4064-BF23-2B237EC90A29}">
+				<Child Name="textnodeReportPayrollAmerisureFl" Owner="{D4647C5C-28A2-47EC-A6B0-E79ABF679317}" />
+				<Child Name="form" Owner="{97EED1DB-CA40-4C3F-9C05-A2976765AB19}">
+					<Child Name="sectionMain" Owner="{0C5BDB27-02FF-4FBD-8B25-A7AADE69B80E}">
+						<Child Name="linkAccessUserGuide" Owner="{219185AD-F7F0-4748-AF75-5D7411D925B0}" />
+						<Child Name="linkFaqs" Owner="{CF14320B-8A97-402D-AA97-1891F0B89744}" />
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="pagePayrollReportingInstructions" Owner="{1F30E85C-8F13-4AAE-9696-CAD69A2132FC}">
+				<Child Name="object15ebe2dedb7820de4ff78c4c91" Owner="{5381CBDE-A308-4390-A772-2DCE1E84553D}" />
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>

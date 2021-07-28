@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{E7ABA87F-E873-4452-9921-6F4BAAEB2BCC}" version="1400" key="{2A1E319E-048D-4F28-97F1-405F607D1AE5}" typeId="{E7ABA87F-E873-4452-9921-6F4BAAEB2BCC}">
+	<config nodeName="Events" tlbHistory="&quot;TestComplete general events&quot;" />
+	<testData />
+	<data />
+	<children>
+		<child key="{633C0876-8005-4689-9A31-1E8EA0450643}">
+			<config nodeName="SureConnect" lastOpenedTLB="" generatedCLSID="{325AFDAF-E01C-44E4-8DB0-4A13CAEEC094}" generatedTLBKey="{8F029620-F2B6-443E-8A11-D298B0ECC609}" generatedEventsKey="{FF882C27-DE8A-43DB-A84C-187C0E9E7226}" generatedTLBDesc="TestComplete SureConnect Control - 7/19/2021 11:26:30 PM">
+				<eventInfo infoTLBVer="version.dll" infoGUID="{4C03E9F2-BB22-4E21-B2E7-E51B754FCBBA}" infoID="1610743811" infoControlName="General Events" infoEventName="OnLogError" infoEventRealName="OnLogError" infoDescription="Occurs when an error message is posted to the test log." />
+				<eventInfo infoTLBVer="version.dll" infoGUID="{4C03E9F2-BB22-4E21-B2E7-E51B754FCBBA}" infoID="1610743810" infoControlName="General Events" infoEventName="OnLogWarning" infoEventRealName="OnLogWarning" infoDescription="Occurs when a warning message is posted to the test log." />
+				<handlerInfo handlerName="SureConnect_OnLogError" handlerMoniker="{782366E3-4EEB-4F75-ADD6-AF2CBE2254A0}SureConnect_OnLogError" handlerEventName="OnLogError" handlerRealIID="{4C03E9F2-BB22-4E21-B2E7-E51B754FCBBA}" handlerRealDispID="1610743811" />
+				<handlerInfo handlerName="SureConnect_OnLogWarning" handlerMoniker="{782366E3-4EEB-4F75-ADD6-AF2CBE2254A0}SureConnect_OnLogWarning" handlerEventName="OnLogWarning" handlerRealIID="{4C03E9F2-BB22-4E21-B2E7-E51B754FCBBA}" handlerRealDispID="1610743810" />
+			</config>
+			<testData />
+			<data />
+		</child>
+	</children>
+</Root>

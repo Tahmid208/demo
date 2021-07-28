@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{E7ABA87F-E873-4452-9921-6F4BAAEB2BCC}" version="1400" key="{AAC49BF2-6C74-4843-8B6A-25E590BBD28C}" typeId="{E7ABA87F-E873-4452-9921-6F4BAAEB2BCC}">
+	<config nodeName="Events" tlbHistory="&quot;TestComplete general events&quot;" />
+	<testData />
+	<data />
+	<children>
+		<child key="{8C7EBAE9-40E2-4D26-8479-B9A146E5087B}">
+			<config nodeName="EventControl" lastOpenedTLB="" generatedCLSID="{6249EE62-54FF-4112-AE70-FB331DDE3E15}" generatedTLBKey="{F046546B-9C6C-426C-83E5-95E6205CFB43}" generatedEventsKey="{03050FC6-ED2C-4BA7-A29A-EE73B8B3829E}" generatedTLBDesc="TestComplete EventControl Control - 7/14/2021 2:17:53 AM">
+				<eventInfo infoTLBVer="version.dll" infoGUID="{4C03E9F2-BB22-4E21-B2E7-E51B754FCBBA}" infoID="1610743809" infoControlName="General Events" infoEventName="OnLogMessage" infoEventRealName="OnLogMessage" infoDescription="Occurs when an informative message is posted to the test log." />
+				<eventInfo infoTLBVer="version.dll" infoGUID="{4C03E9F2-BB22-4E21-B2E7-E51B754FCBBA}" infoID="1610743821" infoControlName="General Events" infoEventName="OnLogCheckpoint" infoEventRealName="OnLogCheckpoint" infoDescription="Occurs when a checkpoint is posted to the test log." />
+				<eventInfo infoTLBVer="version.dll" infoGUID="{4C03E9F2-BB22-4E21-B2E7-E51B754FCBBA}" infoID="1610743811" infoControlName="General Events" infoEventName="OnLogError" infoEventRealName="OnLogError" infoDescription="Occurs when an error message is posted to the test log." />
+				<eventInfo infoTLBVer="version.dll" infoGUID="{4C03E9F2-BB22-4E21-B2E7-E51B754FCBBA}" infoID="1610743810" infoControlName="General Events" infoEventName="OnLogWarning" infoEventRealName="OnLogWarning" infoDescription="Occurs when a warning message is posted to the test log." />
+				<handlerInfo handlerName="EventControl_OnLogError" handlerMoniker="{B02AE69F-DF08-4E93-8622-D463AE72D9CE}EventControl_OnLogError" handlerEventName="OnLogError" handlerRealIID="{4C03E9F2-BB22-4E21-B2E7-E51B754FCBBA}" handlerRealDispID="1610743811" />
+				<handlerInfo handlerName="EventControl_OnLogWarning" handlerMoniker="{B02AE69F-DF08-4E93-8622-D463AE72D9CE}EventControl_OnLogWarning" handlerEventName="OnLogWarning" handlerRealIID="{4C03E9F2-BB22-4E21-B2E7-E51B754FCBBA}" handlerRealDispID="1610743810" />
+				<handlerInfo handlerName="EventControl_OnLogCheckpoint" handlerMoniker="{B02AE69F-DF08-4E93-8622-D463AE72D9CE}EventControl_OnLogCheckpoint" handlerEventName="OnLogCheckpoint" handlerRealIID="{4C03E9F2-BB22-4E21-B2E7-E51B754FCBBA}" handlerRealDispID="1610743821" />
+			</config>
+			<testData />
+			<data />
+		</child>
+	</children>
+</Root>
