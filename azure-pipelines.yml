@@ -6,17 +6,18 @@
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
 
+name: Build1
 trigger:
-- master
-
-pool:
-  vmImage: ubuntu-latest
-
-steps:
-- script: echo Hello, world!
-  displayName: 'Run a one-line script'
-
-- script: |
-    echo Add other tasks to build, test, and deploy your project.
-    echo See https://aka.ms/yaml
-  displayName: 'Run a multi-line script'
+  - main
+resources:
+  repositories:
+    - repository: AutomatedTestsRepo
+      type : github
+      endpoint: connection
+      name: MyGitHubRepo/AutomatedTests
+…
+  steps:
+    - checkout: self
+    - checkout: AutomatedTestsRepo
+      path: AutomatedTests
+      clean: true
